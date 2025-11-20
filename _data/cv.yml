@@ -2,11 +2,11 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Hüseyin Karaca
     - name: Date of Birth
       value: 14th March 1879
     - name: Languages
-      value: English, German
+      value: English, German, Turkish, Persian
 
 - title: Education
   type: time_table
