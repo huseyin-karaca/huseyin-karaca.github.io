@@ -2,7 +2,7 @@ name: Deploy Hugo Site to Pages
 
 on:
   push:
-    branches: ["main"] # Eğer branch adın master ise burayı master yap
+    branches: ["hugo_loveit"] # Eğer branch adın master ise burayı master yap
 
 permissions:
   contents: read
