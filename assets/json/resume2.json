@@ -1,0 +1,212 @@
+{
+  "basics": {
+    "name": "Hüseyin Karaca",
+    "label": "M.Sc. Student in Electrical and Electronics Engineering",
+    "image": "",
+    "email": "huseyin.karaca@bilkent.edu.tr",
+    "phone": "+90 530 307 3199",
+    "url": "",
+    "summary": "M.Sc. Student at Bilkent University, working on ensemble time-series forecasting in 5G networks. Experienced in deep learning, signal processing, and domain adaptation.",
+    "location": {
+      "address": "Bilkent 79/9B",
+      "postalCode": "06800",
+      "city": "Ankara",
+      "countryCode": "TR",
+      "region": "Turkey"
+    },
+    "profiles": [
+      {
+        "network": "Google Scholar",
+        "username": "Huseyin Karaca",
+        "url": "https://scholar.google.com/citations?user=gTpHbNYAAAAJ&hl=en"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "huseyinkaraca",
+        "url": "https://www.linkedin.com/in/huseyinkaraca/"
+      }
+    ]
+  },
+  "education": [
+    {
+      "institution": "Bilkent University",
+      "location": "Ankara, Turkey",
+      "url": "https://w3.bilkent.edu.tr/",
+      "area": "Electrical and Electronics Engineering",
+      "studyType": "M.Sc.",
+      "startDate": "2024-07-01",
+      "score": "3.93/4.00",
+      "courses": [],
+      "thesis": "Ensemble time-series forecasting in 5G networks"
+    },
+    {
+      "institution": "Middle East Technical University",
+      "location": "Ankara, Turkey",
+      "url": "https://www.metu.edu.tr/",
+      "area": "Electrical and Electronics Engineering",
+      "studyType": "B.Sc.",
+      "startDate": "2019-09-01",
+      "endDate": "2024-07-01",
+      "score": "3.60/4.00",
+      "courses": ["Capstone Project: A smart monitor to keep track of vitals and sleep patterns of the baby"]
+    },
+    {
+      "institution": "Ankara Science High School",
+      "location": "Ankara, Turkey",
+      "studyType": "High School Diploma",
+      "startDate": "2015-09-01",
+      "endDate": "2019-06-01",
+      "score": "97.19/100"
+    }
+  ],
+  "work": [
+    {
+      "name": "Bilkent University",
+      "position": "Teaching Assistant",
+      "startDate": "2024-07-01",
+      "summary": "EEE321 Signals and Systems. Guiding and evaluating students during laboratory sessions, grading reports and quizzes. Organizing recitations."
+    },
+    {
+      "name": "Middle East Technical University",
+      "position": "Undergraduate Researcher (Dr. Elif Vural's Group)",
+      "startDate": "2022-09-01",
+      "endDate": "2024-07-01",
+      "summary": "Studied sample complexity of domain adaptation of different deep learning architectures. Performed regular neural network trainings with PyTorch to test novel theoretical bounds."
+    },
+    {
+      "name": "Middle East Technical University",
+      "position": "Part-time Student Assistant",
+      "startDate": "2023-10-01",
+      "endDate": "2024-06-01",
+      "summary": "EE201 Circuit Theory I & EE224 Electromagnetic Theory. Organized weekly recitations and assisted the preparation of lecture notes."
+    },
+    {
+      "name": "UCLA (The Ozcan Research Group)",
+      "position": "Summer Intern",
+      "startDate": "2023-07-01",
+      "endDate": "2023-09-01",
+      "summary": "Studied diffusion models for biomedical images. Helped the preparation of 3D printed diffractive layers for an all-optical image denoiser network."
+    },
+    {
+      "name": "TUBITAK SAGE",
+      "position": "Summer Intern",
+      "startDate": "2022-08-01",
+      "endDate": "2022-09-01",
+      "summary": "Studied on bad pixel detection, wrote a MATLAB code that easifies the examination of calibration images. Improved robustness analysis algorithms."
+    },
+    {
+      "name": "Middle East Technical University",
+      "position": "Undergraduate Researcher (Communication Networks Group)",
+      "startDate": "2021-07-01",
+      "endDate": "2022-09-01",
+      "summary": "Studied age-aware random access. Employed a LoRaWAN network at METU campus."
+    }
+  ],
+  "publications": [
+    {
+      "name": "Hierarchical ensemble-based feature selection for time series prediction",
+      "publisher": "Digital Signal Processing",
+      "releaseDate": "2026",
+      "url": "https://doi.org/10.1016/j.dsp.2025.105528",
+      "summary": "H. Karaca, A. Tumay, A.T. Koc, and S.S. Kozat"
+    },
+    {
+      "name": "A Unified Analysis of Generalization and Sample Complexity for Semi-Supervised Domain Adaptation",
+      "publisher": "arXiv preprint",
+      "releaseDate": "2025",
+      "url": "https://doi.org/10.48550/arXiv.2507.22632",
+      "summary": "E. Vural and H. Karaca"
+    },
+    {
+      "name": "Soft Gradient Boosting with Learnable Feature Transforms for Sequential Regression",
+      "publisher": "arXiv preprint",
+      "releaseDate": "2024",
+      "url": "https://doi.org/10.48550/arXiv.2509.12920",
+      "summary": "H. Karaca and S.S. Kozat"
+    },
+    {
+      "name": "All-optical image denoising using a diffractive visual processor",
+      "publisher": "Light: Science and Applications",
+      "releaseDate": "2024",
+      "url": "https://doi.org/10.1038/s41377-024-01385-6",
+      "summary": "C. Isil et al."
+    },
+    {
+      "name": "An Experimental Study of the Sample Complexity of Domain Adaptation",
+      "publisher": "SIU",
+      "releaseDate": "2023-07-01",
+      "url": "https://doi.org/10.1109/SIU59756.2023.10223790",
+      "summary": "H. Karaca et al."
+    }
+  ],
+  "awards": [
+    {
+      "title": "TUBITAK 2210-A National Graduate Scholarship",
+      "date": "2024-09-01",
+      "awarder": "TUBITAK"
+    },
+    {
+      "title": "TUBITAK 2224-D Scientific Activities Abroad Support",
+      "date": "2023-06-01",
+      "awarder": "TUBITAK"
+    },
+    {
+      "title": "METU EEE STAR 3rd Place Award",
+      "date": "2022-06-01",
+      "summary": "Departmental undergraduate research program. Project: Towards Age-Aware LoRa"
+    },
+    {
+      "title": "Presidential Merit Scholarship",
+      "date": "2019-09-01",
+      "summary": "Placed 24th among 2.6M participants in National University Entrance Examination (YKS)"
+    },
+    {
+      "title": "TUBITAK National Physics Olympiads - Bronze Medal",
+      "date": "2018-02-01"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming",
+      "keywords": ["PyTorch", "Python", "MATLAB", "LaTeX", "Scikit-learn", "Nixtla ML/Neural/Stats Forecast", "Sktime"]
+    },
+    {
+      "name": "Software",
+      "keywords": ["Siemens NX", "LTspice", "Wordpress", "Quartus II", "Modelsim", "Simulink"]
+    },
+    {
+      "name": "Hardware",
+      "keywords": ["Oscilloscope", "FPGA", "SDR"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Turkish",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "C1"
+    },
+    {
+      "language": "Persian",
+      "fluency": "A2"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Social Activities",
+      "keywords": ["Trekking", "Camping", "Cycling", "Student Council Presidency"]
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Introduction to Programming with MATLAB",
+      "issuer": "Coursera"
+    },
+    {
+      "name": "Machine Learning",
+      "issuer": "Coursera"
+    }
+  ]
+}

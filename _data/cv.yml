@@ -1,97 +1,361 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Hüseyin Karaca
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German, Turkish, Persian
-
-- title: Education
-  type: time_table
-  contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
-
-- title: Experience
-  type: time_table
-  contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+cv:
+  name: Hüseyin Karaca
+  location: Ankara, Turkey
+  email: huseyin.karaca@bilkent.edu.tr
+  phone: +90 530 307 3199
+  website:
+  social_networks:
+    - network: Google Scholar
+      username: Huseyin Karaca
+    - network: LinkedIn
+      username: huseyinkaraca
+  sections:
+    education:
+      - institution: Bilkent University
+        area: M.Sc. in Electrical and Electronics Engineering
+        degree:
+        grade:
+        date:
+        start_date: 2024-07
+        end_date: present
+        location: Ankara, Turkey
+        summary:
+        highlights:
+          - 'CGPA: 3.93/4.00'
+          - 'Advisor: Prof. Dr. Süleyman Serdar Kozat'
+          - 'Thesis topic: Ensemble time-series forecasting in 5G networks'
+      - institution: Middle East Technical University
+        area: B.Sc. in Electrical and Electronics Engineering
+        degree:
+        grade:
+        date:
+        start_date: 2019-09
+        end_date: 2024-07
+        location: Ankara, Turkey
+        summary:
+        highlights:
+          - 'CGPA: 3.60/4.00'
+          - 'Capstone Project: A smart monitor to keep track of vitals and sleep patterns of the baby. Implemented learning algorithms for voice recognition and sleep-awake detection modules.'
+      - institution: Ankara Science High School
+        area: High School Diploma
+        degree:
+        grade:
+        date:
+        start_date: 2015-09
+        end_date: 2019-06
+        location: Ankara, Turkey
+        summary:
+        highlights:
+          - 'CGPA: 97.19/100'
+    research_experience:
+      - company: Dr. Elif Vural's Research Group, METU
+        position: Undergraduate Researcher
+        date:
+        start_date: 2022-09
+        end_date: 2024-07
+        location: Ankara, Turkey
+        summary:
+        highlights:
+          - Studied sample complexity of domain adaptation of different deep learning architectures under the supervision of Assoc. Prof. Dr. Elif Vural.
+          - Performed regular neural network trainings with PyTorch to test novel theoretical bounds.
+      - company: The Ozcan Research Group, UCLA
+        position: Summer Intern
+        date:
+        start_date: 2023-07
+        end_date: 2023-09
+        location: Los Angeles, CA, USA
+        summary:
+        highlights:
+          - Studied diffusion models for biomedical images under the supervision of Prof. Dr. Aydogan Ozcan.
+          - Helped the preparation of 3D printed diffractive layers for an all-optical image denoiser network.
+          - Supported within the scope of TUBITAK 2224-D scholarship for education activities abroad.
+      - company: Communication Networks Group, METU
+        position: Undergraduate Researcher
+        date:
+        start_date: 2021-07
+        end_date: 2022-09
+        location: Ankara, Turkey
+        summary:
+        highlights:
+          - Studied age-aware random access under the supervision of Prof. Dr. Elif Uysal.
+          - Started with mathematical background of random access and continued with LoRa - LoRaWAN protocols.
+          - Employed a LoRaWAN network at METU campus.
+      - company: Image Processing Division, TUBITAK SAGE
+        position: Summer Intern
+        date:
+        start_date: 2022-08
+        end_date: 2022-09
+        location: Ankara, Turkey
+        summary:
+        highlights:
+          - Defense Industry R&D Institute of The Scientific and Technological Research Council of Turkey.
+          - Studied on bad pixel detection, wrote a MATLAB code that easifies the examination of calibration images.
+          - Improved robustness analysis algorithms by performing stitching on real seeker images.
+    publications:
+      - title: Time and Context Aware LSTM Ensemble for Sequential Regression
+        authors:
+          - '***H. Karaca***'
+          - S. S. Kozat
+        doi:
+        url:
+        journal: In preparation
+        date:
+      - title: A Unified Analysis of Generalization and Sample Complexity for Semi-Supervised Domain Adaptation
+        authors:
+          - E. Vural
+          - '***H. Karaca***'
+        doi: 10.48550/arXiv.2507.22632
+        url:
+        journal: arXiv preprint
+        date: 2025
+      - title: Hierarchical ensemble-based feature selection for time series prediction
+        authors:
+          - '***H. Karaca***'
+          - A. Tumay
+          - A.T. Koc
+          - S.S. Kozat
+        doi: 10.1016/j.dsp.2025.105528
+        url:
+        journal: Digital Signal Processing, vol. 168, Part B
+        date: 2026
+      - title: Soft Gradient Boosting with Learnable Feature Transforms for Sequential Regression
+        authors:
+          - '***H. Karaca***'
+          - S.S. Kozat
+        doi: 10.48550/arXiv.2509.12920
+        url:
+        journal: arXiv preprint
+        date: 2024
+      - title: All-optical image denoising using a diffractive visual processor
+        authors:
+          - C. Isil
+          - T. Gan
+          - F. O. Ardic
+          - K. Mentesoglu
+          - J. Digani
+          - '***H. Karaca***'
+          - H. Chen
+          - J. Li
+          - D. Mengu
+          - M. Jarrahi
+          - K. Aksit
+          - A. Ozcan
+        doi: 10.1038/s41377-024-01385-6
+        url:
+        journal: Light: Science and Applications, vol. 13, 43
+        date: 2024
+      - title: An Experimental Study of the Sample Complexity of Domain Adaptation
+        authors:
+          - '***H. Karaca***'
+          - O. Akgul
+          - O.F. Arslan
+          - A.C. Aydemir
+          - F.S. Aydin
+          - E.A. Unsal
+          - E. Vural
+        doi: 10.1109/SIU59756.2023.10223790
+        url:
+        journal: Proceedings of the Signal Processing and Communications Applications Conference (SIU)
+        date: 2023-07
+    teaching_experience:
+      - company: Bilkent University
+        position: Teaching Assistant - EEE321 Signals and Systems
+        date:
+        start_date: 2024-07
+        end_date: present
+        location: Ankara, Turkey
+        summary:
+        highlights:
+          - Guiding and evaluating students during laboratory sessions, grading reports and quizzes.
+          - Organizing recitations to reinforce core lecture topics.
+          - Course coordinators: Prof. Dr. Haldun Ozaktas (Fall 2025-26), Prof. Dr. Billur Barshan (Spring 2024-25), Prof. Dr. Levent Onural (Fall 2024-25).
+      - company: Middle East Technical University
+        position: Part-time Student Assistant - EE201 Circuit Theory I & EE224 Electromagnetic Theory
+        date:
+        start_date: 2023-10
+        end_date: 2024-06
+        location: Ankara, Turkey
+        summary:
+        highlights:
+          - Organized weekly recitations and assisted the preparation of lecture notes.
+          - Course coordinators: Prof. Dr. Cagatay Candan (EE201, Fall 2023-24), Prof. Dr. Gülbin Dural (EE224, Spring 2023-24).
+    skills:
+      - label: Languages
+        details: Turkish (Native), English (C1), Persian (A2)
+      - label: Programming
+        details: PyTorch, Python, MATLAB, LaTeX, Scikit-learn, Nixtla ML/Neural/Stats Forecast, Sktime
+      - label: Software
+        details: Siemens NX, LTspice, Wordpress, Quartus II, Modelsim, Simulink
+      - label: Hardware
+        details: Oscilloscope (with other basic elec. lab. devices), FPGA, SDR
+    achievements_and_honors:
+      - bullet: '**TUBITAK Grants**'
+      - bullet: '2210-A (National Graduate Scholarship Program) (09/24)'
+      - bullet: '2224-D (Support Program for Participation in Scientific Activities Abroad) (06/23)'
+      - bullet: '2205 (Undergraduate Scholarship Program) (09/19)'
+      - bullet: '**METU EEE STAR 3rd Place Award** (06/22)'
+      - bullet: Departmental undergraduate research program. Participated with the "Towards Age-Aware LoRa" project. Wrote a research report and gave a talk at the award ceremony.
+      - bullet: '**National Examinations**'
+      - bullet: '**National University Entrance Examination (YKS)** (07/19): Placed 24th among 2.6M participants with 482/500 pts. Awarded to the highly prestigious Presidential Merit Scholarship, Is Bank Golden Youth Award, METU Dev. Found. Success Scholarship.'
+      - bullet: '**National High School Entrance Examination (TEOG)** (08/15): Placed 1st among 1.4M participants with 500/500 pts. Enrolled to the top science high school in Turkey.'
+      - bullet: '**Physics Olympiads**'
+      - bullet: '**TUBITAK National Physics Olympiads** (02/18): Placed 16th, and won the bronze medal with 54/100 pts. Participated in the national team selection bootcamp organized by the olympiad committee of Turkey for two weeks.'
+      - bullet: '**Asian and European Physics Olympiads** (05/17): Took part in the national team and represented Turkey in the regional olympiads held in Russia and Estonia.'
+    social_activities:
+      - bullet: '**Trekking and Camping** (07/18 - present): Participated in two trekking tours (200km) on the Ancient Lycian Way. Organized midnight full moon walks and camps with groups of 5-10 in the valleys of Cappadocia.'
+      - bullet: '**Cycling** - METU Cycling Team (10/21 - 06/22): Represented METU in intercollegiate mountain and road bike races. Organized weekly trainings and rides for the newcomers as a board member of the team.'
+      - bullet: '**Student Council Presidency** - Ankara Science High School (10/16 - 12/18): Organized a spring festival and "Happy New Year!" party (three years in a row). Designed and sold printed hoodies for the name of 52nd year graduates. Founded a book society emphasized on French literature, and organized weekly book review meetings.'
+    other:
+      - label: Cycling
+        details: Road bike rider and board member at METU Cycling Team
+      - label: Camping
+        details: Experienced many times in Mediterranean coast and Cappadocia
+      - label: Teaching
+        details: Helped the juniors in the olympic studies by organizing lectures and question solutions
+      - label: Coursera
+        details: Introduction to Programming with MATLAB, Machine Learning
+  sort_entries: none
+design:
+  theme: engineeringresumes
+  page:
+    size: us-letter
+    top_margin: 2cm
+    bottom_margin: 2cm
+    left_margin: 2cm
+    right_margin: 2cm
+    show_page_numbering: false
+    show_last_updated_date: true
+  colors:
+    text: rgb(0, 0, 0)
+    name: rgb(0, 0, 0)
+    connections: rgb(0, 0, 0)
+    section_titles: rgb(0, 0, 0)
+    links: rgb(0, 0, 0)
+    last_updated_date_and_page_numbering: rgb(128, 128, 128)
+  text:
+    font_family: XCharter
+    font_size: 10pt
+    leading: 0.6em
+    alignment: justified
+    date_and_location_column_alignment: right
+  links:
+    underline: true
+    use_external_link_icon: false
+  header:
+    name_font_family: XCharter
+    name_font_size: 25pt
+    name_bold: false
+    small_caps_for_name: false
+    photo_width: 3.5cm
+    vertical_space_between_name_and_connections: 0.7cm
+    vertical_space_between_connections_and_first_section: 0.7cm
+    horizontal_space_between_connections: 0.5cm
+    connections_font_family: XCharter
+    separator_between_connections: '|'
+    use_icons_for_connections: false
+    use_urls_as_placeholders_for_connections: true
+    make_connections_links: true
+    alignment: center
+  section_titles:
+    type: with-full-line
+    font_family: XCharter
+    font_size: 1.2em
+    bold: true
+    small_caps: false
+    line_thickness: 0.5pt
+    vertical_space_above: 0.55cm
+    vertical_space_below: 0.3cm
+  entries:
+    date_and_location_width: 4.15cm
+    left_and_right_margin: 0cm
+    horizontal_space_between_columns: 0.1cm
+    vertical_space_between_entries: 0.4cm
+    allow_page_break_in_sections: true
+    allow_page_break_in_entries: true
+    short_second_row: false
+    show_time_spans_in: []
+  highlights:
+    bullet: •
+    nested_bullet: '-'
+    top_margin: 0.25cm
+    left_margin: 0cm
+    vertical_space_between_highlights: 0.19cm
+    horizontal_space_between_bullet_and_highlight: 0.3em
+    summary_left_margin: 0cm
+  entry_types:
+    one_line_entry:
+      template: '**LABEL:** DETAILS'
+    education_entry:
+      main_column_first_row_template: '**INSTITUTION**, DEGREE in AREA -- LOCATION'
+      degree_column_template:
+      degree_column_width: 1cm
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: DATE
+    normal_entry:
+      main_column_first_row_template: '**NAME** -- **LOCATION**'
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: DATE
+    experience_entry:
+      main_column_first_row_template: '**POSITION**, COMPANY -- LOCATION'
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: DATE
+    publication_entry:
+      main_column_first_row_template: '**TITLE**'
+      main_column_second_row_template: |-
+        AUTHORS
+        URL (JOURNAL)
+      main_column_second_row_without_journal_template: |-
+        AUTHORS
+        URL
+      main_column_second_row_without_url_template: |-
+        AUTHORS
+        JOURNAL
+      date_and_location_column_template: DATE
+locale:
+  language: en
+  phone_number_format: national
+  page_numbering_template: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+  last_updated_date_template: Last updated in TODAY
+  date_template: MONTH_ABBREVIATION YEAR
+  month: month
+  months: months
+  year: year
+  years: years
+  present: present
+  to: –
+  abbreviations_for_months:
+    - Jan
+    - Feb
+    - Mar
+    - Apr
+    - May
+    - June
+    - July
+    - Aug
+    - Sept
+    - Oct
+    - Nov
+    - Dec
+  full_names_of_months:
+    - January
+    - February
+    - March
+    - April
+    - May
+    - June
+    - July
+    - August
+    - September
+    - October
+    - November
+    - December
+rendercv_settings:
+  date: '2025-10-28'
+  bold_keywords: []
+  sort_entries: none
