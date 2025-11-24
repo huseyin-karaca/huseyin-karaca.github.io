@@ -1,115 +1,66 @@
----
----
-
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@article{KARACA2026105528,
+title = {Hierarchical ensemble-based feature selection for time series prediction},
+journal = {Digital Signal Processing},
+volume = {168},
+pages = {105528},
+year = {2026},
+issn = {1051-2004},
+doi = {https://doi.org/10.1016/j.dsp.2025.105528},
+url = {https://www.sciencedirect.com/science/article/pii/S1051200425005500},
+author = {Huseyin Karaca and Aysin Tumay and Ali Taha Koc and Suleyman Serdar Kozat},
+keywords = {Feature selection, Ensemble learning, The curse of dimensionality, Hierarchical ensemble, Light gradient boosting machine (LightGBM), Time-domain signal prediction},
+abstract = {We introduce a hierarchical ensemble-based feature selection (HEFS) method specifically designed for high-dimensional, non-stationary time series prediction tasks. Traditional methods typically select a single dominant subset of features, potentially neglecting valuable information from non-selected subsets. In contrast, our approach employs a multi-layer hierarchical structure, where dominant features are initially used to train the first layer, and non-dominant features are sequentially processed in subsequent layers. A novel cost-optimization block bridges each layer, recalibrating the predictions of the previous layer by directly minimizing the final loss. Thus, effectively capturing interactions across feature groups in different layers and overcoming some of the limitations of classical gradient boosting-based ensembles. Extensive experiments on synthetic and real-world datasets demonstrate that our method significantly outperforms classical approaches in predictive accuracy and robustness against overfitting. To promote transparency and reproducibility, we publicly share our implementation code.}
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+
+@misc{vural2025unifiedanalysisgeneralizationsample,
+      title={A Unified Analysis of Generalization and Sample Complexity for Semi-Supervised Domain Adaptation}, 
+      author={Elif Vural and Huseyin Karaca},
+      year={2025},
+      eprint={2507.22632},
+      archivePrefix={arXiv},
+      primaryClass={stat.ML},
+      url={https://arxiv.org/abs/2507.22632}, 
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+
+@article{isil_all-optical_2024,
+	title = {All-optical image denoising using a diffractive visual processor},
+	volume = {13},
+	issn = {2047-7538},
+	url = {https://doi.org/10.1038/s41377-024-01385-6},
+	doi = {10.1038/s41377-024-01385-6},
+	abstract = {Image denoising, one of the essential inverse problems, targets to remove noise/artifacts from input images. In general, digital image denoising algorithms, executed on computers, present latency due to several iterations implemented in, e.g., graphics processing units (GPUs). While deep learning-enabled methods can operate non-iteratively, they also introduce latency and impose a significant computational burden, leading to increased power consumption. Here, we introduce an analog diffractive image denoiser to all-optically and non-iteratively clean various forms of noise and artifacts from input images – implemented at the speed of light propagation within a thin diffractive visual processor that axially spans {\textless}250 × λ, where λ is the wavelength of light. This all-optical image denoiser comprises passive transmissive layers optimized using deep learning to physically scatter the optical modes that represent various noise features, causing them to miss the output image Field-of-View (FoV) while retaining the object features of interest. Our results show that these diffractive denoisers can efficiently remove salt and pepper noise and image rendering-related spatial artifacts from input phase or intensity images while achieving an output power efficiency of {\textasciitilde}30–40\%. We experimentally demonstrated the effectiveness of this analog denoiser architecture using a 3D-printed diffractive visual processor operating at the terahertz spectrum. Owing to their speed, power-efficiency, and minimal computational overhead, all-optical diffractive denoisers can be transformative for various image display and projection systems, including, e.g., holographic displays.},
+	number = {1},
+	journal = {Light: Science \& Applications},
+	author = {Işıl, Çağatay and Gan, Tianyi and Ardic, Fazil Onuralp and Mentesoglu, Koray and Digani, Jagrit and Karaca, Huseyin and Chen, Hanlong and Li, Jingxi and Mengu, Deniz and Jarrahi, Mona and Akşit, Kaan and Ozcan, Aydogan},
+	month = feb,
+	year = {2024},
+	pages = {43},
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
-}
+@INPROCEEDINGS{10223790,
+  author={Karaca, Hüseyin and Akgül, Özlem and Arslan, Ömer Faruk and Aydemir, Atilla Can and Aydin, Firdevs Su and Ünsal, Enes Ata and Vural, Elif},
+  booktitle={2023 31st Signal Processing and Communications Applications Conference (SIU)}, 
+  title={An Experimental Study of the Sample Complexity of Domain Adaptation}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1-4},
+  abstract={In this study, we experimentally investigate the sample complexity of semi supervised domain adaptation with deep neural networks. Sweeping the hyper-parameters of domain adaptation neural networks relying on the MMD distance measure and the number of training samples in a controlled manner, we study the test accuracy of the target samples. Both labeled and unlabeled samples from the source and the target domains are used as inputs to the neural network in the experiments. Our experimental findings suggest that the minimum number of samples required for guaranteeing a fixed experimental target accuracy level increases quadratically with both the number and the dimension of the MMD layers in the network used for aligning the source and the target domains. We observe that this relationship is in harmony with some well-known theoretical bounds in the classical deep learning literature. Meanwhile, we also investigate the optimal weighting strategy between the classification loss functions of the source and the target samples, concluding that increasing the weight of the target loss improves the performance as the number of target samples increases.},
+  keywords={Complexity theory;Artificial neural networks;Training;Signal processing;Deep learning;Domain adaptation;deep neural networks;sample complexity;MMD distance;target accuracy},
+  doi={10.1109/SIU59756.2023.10223790},
+  ISSN={2165-0608},
+  month={July},}
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+@misc{karaca2025softgradientboostinglearnable,
+      title={Soft Gradient Boosting with Learnable Feature Transforms for Sequential Regression}, 
+      author={Huseyin Karaca and Suleyman Serdar Kozat},
+      year={2025},
+      eprint={2509.12920},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      doi={10.48550/arXiv.2509.12920},
+      url={https://arxiv.org/abs/2509.12920}, 
+      abstract = {We propose a soft gradient boosting framework for sequential regression that embeds a learnable linear feature transform within the boosting procedure. At each boosting iteration, we train a soft decision tree and learn a linear input feature transform Q together. This approach is particularly advantageous in high-dimensional, data-scarce scenarios, as it discovers the most relevant input representations while boosting. We demonstrate, using both synthetic and real-world datasets, that our method effectively and efficiently increases the performance by an end-to-end optimization of feature selection/transform and boosting while avoiding overfitting. We also extend our algorithm to differentiable non-linear transforms if overfitting is not a problem. To support reproducibility and future work, we share our code publicly.}
 }
