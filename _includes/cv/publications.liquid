@@ -1,0 +1,18 @@
+<div class="card-text">
+  {% for item in include.content %}
+    <div class="mb-3">
+      <h5 class="card-title font-weight-bold">
+        {% if item.url %}<a href="{{ item.url }}">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}
+      </h5>
+      <h6 class="card-subtitle mb-2 text-muted">{{ item.authors | join: ', ' }}</h6>
+      <div class="card-subtitle mb-2 text-muted">
+        <span><em>{{ item.journal | default: item.conference }}</em></span>,
+        <span>{{ item.date }}</span>
+        {% if item.doi %}
+        | <span>DOI: <a href="https://doi.org/{{ item.doi }}">{{ item.doi }}</a></span>
+        {% endif %}
+      </div>
+    </div>
+    {% unless forloop.last %}<hr>{% endunless %}
+  {% endfor %}
+</div>

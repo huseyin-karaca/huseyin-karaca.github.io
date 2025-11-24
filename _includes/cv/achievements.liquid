@@ -1,0 +1,15 @@
+<div class="card-text">
+  {% for item in include.content %}
+    <div class="mb-3">
+      <h5 class="card-title font-weight-bold">{{ item.title }}</h5>
+      {% if item.description %}
+        <p>{{ item.description }}</p>
+      {% endif %}
+      <ul class="card-text">
+        {% for entry in item.entries %}
+          <li>{{ entry.name }} ({{ entry.date }})</li>
+        {% endfor %}
+      </ul>
+    </div>
+  {% endfor %}
+</div>

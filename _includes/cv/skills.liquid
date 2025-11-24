@@ -1,0 +1,5 @@
+<div class="card-text">
+  {% for item in include.content %}
+      <p><strong>{{ item.label }}:</strong> {{ item.details }}</p>
+  {% endfor %}
+</div>

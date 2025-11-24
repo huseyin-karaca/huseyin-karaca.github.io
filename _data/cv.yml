@@ -1,97 +1,323 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+cv:
+  name: Hüseyin Karaca
+  email: huseyin.karaca@bilkent.edu.tr
+  phone: +90 530 307 3199
+  website: https://huseyin-karaca.github.io
+  address: Bilkent 79, 06800, Ankara, Türkiye
+  social_networks:
+    - network: LinkedIn
+      username: huseyinkaraca
+      fasymbol: fa-linkedin
+    - network: Google Scholar
+      username: Hüseyin Karaca
+      fasymbol: fa-google
+    - network: GitHub
+      username: huseyin-karaca
+      fasymbol: fa-github
+    # - network: ORCID
+    #   username: 0000-0002-5093-320X
+    #   fasymbol: fa-orcid
+  sections:
+    education:
+      - institution: Bilkent University
+        area: Electrical and Electronics Engineering
+        degree: Master of Science
+        grade: '3.93/4.00'
+        url: https://w3.bilkent.edu.tr/bilkent/
+        start_date: 2024-07
+        end_date: present
+        location: Ankara, Türkiye
+        highlights:
+          - "Grade: 3.93/4.00"
+          - "Advisor: Prof. Dr. Süleyman Serdar Kozat"
+          - "Thesis topic: Ensemble learning and feature selection methods for time-series forecasting"
+      - institution: Middle East Technical University
+        area: Electrical and Electronics Engineering
+        degree: Bachelor of Science
+        grade: '3.60/4.00'
+        url: https://www.metu.edu.tr/
+        start_date: 2019-09
+        end_date: 2024-07
+        location: Ankara, Türkiye
+        highlights:
+          - "Grade: 3.60/4.00"
+          - "Advisor: Assoc. Prof. Dr. Elif Vural"
+          - "Capstone Project: A smart monitor to keep track of vitals and sleep patterns of the baby."
+      - institution: Ankara Science High School
+        area: Science 
+        degree: High School Diploma
+        url: https://ankarafenlisesi.meb.k12.tr/
+        start_date: 2015-09
+        end_date: 2019-06
+        location: Ankara, Türkiye
+        summary:
+        highlights:
+          - "Grade: 97.19/100"
 
-- title: Education
-  type: time_table
-  contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+    research_experience:
+      - company: UCLA (The Ozcan Research Group)
+        url: https://research.seas.ucla.edu/ozcan/
+        position: Summer Intern
+        date:
+        start_date: 2023-07
+        end_date: 2023-09
+        location: Los Angeles, CA, USA
+        summary:
+        highlights:
+          - Studied diffusion models for biomedical images under the supervision of Prof. Dr. Aydogan Ozcan.
+          - Helped the preparation of 3D printed diffractive layers for an all-optical image denoiser network.
+      - company: METU (Dr. Elif Vural's Research Group)
+        url: https://blog.metu.edu.tr/velif/
+        position: Undergraduate Researcher
+        date:
+        start_date: 2022-09
+        end_date: 2024-07
+        location: Ankara, Türkiye
+        summary:
+        highlights: 
+          - Studied sample complexity of domain adaptation of different deep learning architectures.
+          - Performed regular neural network trainings with PyTorch to test novel theoretical bounds.
+      - company: TUBITAK SAGE (Image Processing Division)
+        position: Summer Intern
+        date:
+        url: https://www.sage.tubitak.gov.tr/
+        start_date: 2022-08
+        end_date: 2022-09
+        location: Ankara, Türkiye
+        summary:
+        highlights:
+          - Studied on bad pixel detection and wrote a MATLAB code that simplifies the examination of calibration images.
+          - Improved robustness analysis algorithms by performing stitching on real seeker images.
+      - company: METU (Communication Networks Group)
+        position: Undergraduate Researcher
+        url: https://cng-eee.metu.edu.tr/
+        date:
+        start_date: 2021-07
+        end_date: 2022-09
+        location: Ankara, Türkiye
+        summary: Advisor Prof. Dr. Elif Uysal
+        highlights:
+          - Studied age-aware random access for LoRa - LoRaWAN protocols.
+          - Employed a LoRaWAN network at the METU campus.
 
-- title: Experience
-  type: time_table
-  contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+    publications:
+    - title: Hierarchical ensemble-based feature selection for time series prediction
+      authors:
+      - Karaca, H.
+      - Tumay, A.
+      - Koc, A.T.
+      - Kozat, S.S.
+      journal: Digital Signal Processing
+      doi: 10.1016/j.dsp.2025.105528
+      date: '2026'
+      doc_type: journal
+    - title: A Unified Analysis of Generalization and Sample Complexity for Semi-Supervised
+        Domain Adaptation
+      authors:
+      - Vural, E.
+      - Karaca, H.
+      journal: arXiv preprint
+      doi: 10.48550/arXiv.2507.22632
+      date: '2025'
+      doc_type: preprint
+    - title: Soft Gradient Boosting with Learnable Feature Transforms for Sequential Regression
+      authors:
+      - Karaca, H.
+      - Kozat, S.S.
+      journal: IEEE Signal Processing Letters
+      doi: 10.48550/arXiv.2509.12920
+      doc_type: journal
+      date: '2024'
+    - title: All-optical image denoising using a diffractive visual processor
+      authors:
+      - Isil, C.
+      - Gan, T.
+      - Ardic, F.O.
+      - Mentesoglu, K.
+      - Digani, J.
+      - Karaca, H.
+      - Chen, H.
+      - Li, J.
+      - Mengu, D.
+      - Jarrahi, M.
+      - Aksit, K.
+      - Ozcan, A.
+      journal: 'Light: Science \& Applications'
+      doi: 10.1038/s41377-024-01385-6
+      date: '2024'
+      doc_type: journal
+    - title: An Experimental Study of the Sample Complexity of Domain Adaptation
+      authors:
+      - Karaca, H.
+      - Akgul, O.
+      - Arslan, O.F.
+      - Aydemir, A.C.
+      - Aydin, F.S.
+      - Unsal, E.A.
+      - Vural, E.
+      doi: 10.1109/SIU59756.2023.10223790
+      date: '2023'
+      conference: IEEE Signal Processing and Communications Applications (SIU)
+      doc_type: conference
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
+    teaching_experience:
+      - company: Bilkent University
+        position: Graduate Teaching Assistant
+        date:
+        start_date: 2024-07
+        end_date: present
+        location: Ankara, Türkiye
+        summary: Guided students during laboratory sessions, graded reports and quizzes, organized recitations.
+        courses:
+          - name: EEE321 Signals and Systems
+            semester: Fall 2024
+            coordinator: Prof. Dr. Levent Onural
+            role: Guiding and evaluating students during laboratory sessions, grading reports and quizzes.
+          - name: EEE321 Signals and Systems
+            semester: Spring 2025
+            coordinator: Prof. Dr. Billur Barshan
+            role: Guiding and evaluating students during laboratory sessions, grading reports and quizzes.
+          - name: EEE321 Signals and Systems
+            semester: Fall 2025
+            coordinator: Prof. Dr. Haldun Özaktaş
+            role: Organized recitations to reinforce core lecture topics.
+      - company: Middle East Technical University
+        position: Undergraduate Teaching Assistant
+        date:
+        start_date: 2023-10
+        end_date: 2024-06
+        location: Ankara, Türkiye
+        summary: Assisted the preparation of lecture notes, organized monthly recitations.
+        courses:
+          - name: EE201 Circuit Theory I
+            semester: Fall 2023
+            coordinator: Prof. Dr. Çağatay Candan
+            role: Assisted the preparation of lecture notes.
+          - name: EE224 Electromagnetic Theory
+            semester: Spring 2024
+            coordinator: Prof. Dr. Gülbin Dural
+            role: Organized monthly recitations.
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
+    skills:
+      - label: Languages
+        details: 'Turkish (Native), English (C1), Persian (A2)'
+      - label: Programming
+        details: PyTorch, Python, MATLAB, LaTeX, Scikit-learn, Nixtla, Sktime
+      - label: Software
+        details: Siemens NX, LTspice, Wordpress, Quartus II, Modelsim, Simulink
+      - label: Hardware
+        details: Oscilloscope, FPGA, SDR
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    # honors_and_awards:
+    #   - name: 5G and Beyond Scholarship
+    #     location:
+    #     date: 2024-07
+    #     summary:
+    #     highlights:
+    #       - Awarded the 5G and Beyond Scholarship for the master's program.
+    #   - name: TUBITAK Grants
+    #     location:
+    #     date: 2019-2024
+    #     summary:
+    #     highlights:
+    #       - '2210-A: National Graduate Scholarship Program (2024)'
+    #       - '2224-D: Support Program for Participation in Scientific Activities Abroad (2023)'
+    #       - '2205: Undergraduate Scholarship Program (2019)'
+    #   - name: National University Entrance Examination (YKS)
+    #     location: Turkey
+    #     date: 2019-07
+    #     summary: 'Ranked 24th among 2.6M participants (Score: 482/500)'
+    #     highlights:
+    #       - Awarded the Presidential Merit Scholarship and Is Bank Golden Youth Award.
+    #   - name: TUBITAK National Physics Olympiads
+    #     location: Turkey
+    #     date: 2018-02
+    #     summary:
+    #     highlights:
+    #       - 'Ranked 16th, won the bronze medal. Participated in national team selection bootcamp.'
 
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    # honors_and_awards:
+    #   - title: 5G and Beyond Scholarship
+    #     date: 2024-07
+    #     details: Awarded specifically for the master's program.
+      
+    #   - title: TUBITAK Grants
+    #     date: 2019-2024
+    #     details: 2210-A National Graduate (2024); 2224-D Scientific Activities Abroad (2023); 2205 Undergraduate Scholarship (2019).
+      
+    #   - title: National University Entrance Examination (YKS)
+    #     location: Turkey
+    #     date: 2019-07
+    #     details: Ranked 24th among 2.6M participants. Awarded Presidential Merit Scholarship and Is Bank Golden Youth Award.
+      
+    #   - title: TUBITAK National Physics Olympiads
+    #     date: 2018-02
+    #     details: Ranked 16th (Bronze Medal). Participated in national team selection bootcamp.
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+    achievements_and_honors:
+      - title: Research Awards
+        description: 
+        entries:
+          - name: ICT Authority of Türkiye 5G and Beyond Graduate Research Scholarship
+            date: 10/25
+            # description: Prestigious scholarship awarded by the Information and Communication Technologies Authority of Türkiye \\to exceptional graduate students working on 5G technologies.
+          - name: METU EEE STAR Departmental Undergraduate Research Program 3rd Place Award
+            date: 06/22
+            # description: Departmental undergraduate research program. Participated with the ``Towards Age-Aware LoRa'' project. \\ Wrote a research report and gave a talk at the award ceremony.
+          - name: The Sci. Tech. Res. Council of Türkiye National Graduate Scholarship Program (2210-A)
+            date: 09/24
+          - name: The Sci. Tech. Res. Council of Türkiye Scientific Activities Abroad Support Program (2224-D)
+            date: 06/23
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+      # - title: TÜBİTAK (Technological and Scientific Research Council of Türkiye)
+      #   # description: Technological and Scientific Research Council of Turkey.
+      #   entries:
+      #     - name: National Graduate Scholarship Program (2210-A)
+      #       date: 09/24
+      #     - name: Scientific Activities Abroad Support Program (2224-D)
+      #       date: 06/23
+      #     - name: Undergraduate Scholarship Program (2205)
+      #       date: 09/19
 
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+      - title: National Examinations
+        entries:
+          - name: Placed 24th among 2.6M participants in National University Entrance Examination (YKS)
+            date: 07/19
+            #description: Placed 24th among 2.6M participants. \\ Awarded to the Presidential Merit Scholarship and Is Bank Golden Youth Award.
+          - name: Placed 1st among 1.4M participants in National High School Entrance Examination (TEOG)
+            date: 08/15
+            #description: Placed 1st among 1.4M participants (Full Score). Enrolled to the top science high school in Turkey.
+
+      - title: Physics Olympiads
+        entries:
+          - name: Bronze medalist in National Physics Olympiads
+            date: 02/18
+            #description: Bronze Medalist (16th place). Selected for the national team bootcamp.
+          - name: Represented Turkey in Asian and European Physics Olympiads held in Russia and Estonia.
+            date: 05/17
+          - name: The Sci. Tech. Res. Council of Türkiye Undergraduate Scholarship Program (2205)
+            date: 09/19
+            #description: Represented Turkey in international olympiads held in Russia and Estonia.
+
+    extracurricular_activities:
+      - name: Trekking and Camping
+        location:
+        date: 2018-07
+        summary:
+        highlights:
+          - Participated in two trekking tours (200km) on the Ancient Lycian Way.
+          - Organized midnight full moon walks and camps in Cappadocia.
+      - name: Cycling
+        location: Board Member at METU Cycling Team
+        date: 2021-10
+        summary:
+        highlights:
+          - Represented METU in intercollegiate mountain and road bike races.
+          - Organized weekly trainings and rides for the newcomers.
+      - name: Student Council Presidency
+        location: Ankara Science High School
+        date: 2016-10
+        highlights:
+          - Organized a spring festival and ``Happy New Year!'' party (three years in a row).
+          - Designed and sold printed hoodies for the Class of 2019.
+          - Founded a book society and organized weekly book review meetings.

@@ -1,0 +1,29 @@
+<div class="card-text">
+  {% for item in include.content %}
+    <div class="mb-3">
+      <h5 class="card-title font-weight-bold">{{ item.company }}</h5>
+      <h6 class="card-subtitle mb-2 text-muted">{{ item.position }}</h6>
+      <div class="card-subtitle mb-2 text-muted">
+        <span>{{ item.location }}</span> |
+        <span>
+          {{ item.start_date }} - {{ item.end_date }}
+        </span>
+      </div>
+      {% if item.summary %}
+        <p>{{ item.summary }}</p>
+      {% endif %}
+      {% if item.courses %}
+      <strong>Courses:</strong>
+      <ul class="card-text">
+        {% for course in item.courses %}
+          <li><strong>{{ course.name }}</strong> ({{ course.semester }})
+            <p style="margin-bottom: 0;">{{ course.role }}</p>
+            <p><em>Coordinator: {{ course.coordinator }}</em></p>
+          </li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+    </div>
+    {% unless forloop.last %}<hr>{% endunless %}
+  {% endfor %}
+</div>

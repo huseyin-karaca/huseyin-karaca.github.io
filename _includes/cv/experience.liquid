@@ -1,0 +1,31 @@
+<div class="card-text">
+  {% for item in include.content %}
+    <div class="mb-3">
+      <h5 class="card-title font-weight-bold">
+        {% if item.url %}<a href="{{ item.url }}">{{ item.company | default: item.name }}</a>{% else %}{{ item.company | default: item.name }}{% endif %}
+      </h5>
+      {% if item.position %}
+        <h6 class="card-subtitle mb-2 text-muted">{{ item.position }}</h6>
+      {% endif %}
+      <div class="card-subtitle mb-2 text-muted">
+        <span>{{ item.location }}</span>
+        {% if item.start_date and item.end_date %}
+        | <span>{{ item.start_date }} - {{ item.end_date }}</span>
+        {% elsif item.date %}
+        | <span>{{ item.date }}</span>
+        {% endif %}
+      </div>
+      {% if item.summary %}
+        <p>{{ item.summary }}</p>
+      {% endif %}
+      {% if item.highlights %}
+      <ul class="card-text">
+        {% for highlight in item.highlights %}
+          <li>{{ highlight }}</li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+    </div>
+    {% unless forloop.last %}<hr>{% endunless %}
+  {% endfor %}
+</div>

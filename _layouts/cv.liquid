@@ -28,24 +28,29 @@ layout: default
 
     <article>
       <div class="cv">
-        {% for entry in site.data.cv %}
-          <a class="anchor" id="{{ entry.title }}"></a>
+        {% for section in site.data.cv.cv.sections %}
+          <a class="anchor" id="{{ section[0] }}"></a>
           <div class="card mt-3 p-3">
-            <h3 class="card-title font-weight-medium">{{ entry.title }}</h3>
+            <h3 class="card-title font-weight-medium">{{ section[0] | replace: '_', ' ' | capitalize }}</h3>
             <div>
-              {% if entry.type == 'list' %}
-                {% include cv/list.liquid %}
-              {% elsif entry.type == 'map' %}
-                {% include cv/map.liquid %}
-              {% elsif entry.type == 'nested_list' %}
-                {% include cv/nested_list.liquid %}
-              {% elsif entry.type == 'time_table' %}
-                {% include cv/time_table.liquid %}
-              {% elsif entry.type == 'list_groups' %}
-                {% include cv/list_groups.liquid %}
-              {% else %}
-                {{ entry.contents }}
-              {% endif %}
+              {%- assign section_name = section[0] -%}
+              {%- assign section_content = section[1] -%}
+              {%- case section_name -%}
+                {%- when 'education' -%}
+                  {%- include cv/education.liquid content=section_content -%}
+                {%- when 'research_experience' -%}
+                  {%- include cv/experience.liquid content=section_content -%}
+                {%- when 'publications' -%}
+                  {%- include cv/publications.liquid content=section_content -%}
+                {%- when 'teaching_experience' -%}
+                  {%- include cv/teaching.liquid content=section_content -%}
+                {%- when 'skills' -%}
+                  {%- include cv/skills.liquid content=section_content -%}
+                {%- when 'achievements_and_honors' -%}
+                  {%- include cv/achievements.liquid content=section_content -%}
+                {%- when 'extracurricular_activities' -%}
+                  {%- include cv/experience.liquid content=section_content -%}
+              {%- endcase -%}
             </div>
           </div>
         {% endfor %}
