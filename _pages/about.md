@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+# subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: right
@@ -14,22 +14,22 @@ profile:
     <p>Ankara, Türkiye 06800</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # includes social icons at the bottom of the page
 
 announcements:
-  enabled: true # includes a list of news items
+  enabled: false # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
 I am a Master's student in [Electrical and Electronics Engineering at Bilkent University](https://ee.bilkent.edu.tr/en/), with a strong interest in machine learning and signal processing. I am currently seeking a PhD position where I can apply my skills to solve challenging problems.
 
-You can learn more about my work through my [publications](/publications) and [projects](/projects). For a detailed overview of my academic background, please see my [CV](/cv).
+You can learn more about my work through my [publications](/publications). For a detailed overview of my academic background, please see my [CV](/cv).
 
 I am always open to discussing new research ideas and collaborations. Please feel free to get in touch. 
 
