@@ -125,7 +125,7 @@ cv:
       - Karaca, H.
       - Kozat, S.S.
       journal: IEEE Signal Processing Letters
-      doi: 10.48550/arXiv.2509.12920
+      doi: 10.1109/LSP.2025.3639345
       doc_type: journal
       date: '2024'
     - title: All-optical image denoising using a diffractive visual processor
