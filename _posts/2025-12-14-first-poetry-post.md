@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ey Sareban
+title: Ey Sareban (draft)
 date: 2025-12-14 11:59:00 +0300
 description: Exploring Mohsen Namjoo's version of an old Persian poem
 tags: poetry
@@ -9,7 +9,7 @@ giscus_comments: false
 related_posts: false
 ---
 
-*Ey Sareban* (ای ساربان) is a classical Persian poem, beautifully performed by [Mohsen Namjoo](https://en.wikipedia.org/wiki/Mohsen_Namjoo). For Turkish speakers, Persian is surprisingly accessible—not because the languages are related, but because centuries of cultural exchange have woven countless Persian words into Turkish. Below, I present the lyrics in four forms: the original Persian script, Latinized Persian, Turkish translation, and English. Notice how many words you can recognize!
+*Ey Sareban* (ای ساربان) is a classical Persian poem, beautifully adapted and performed by [Mohsen Namjoo](https://en.wikipedia.org/wiki/Mohsen_Namjoo). Below, I present the lyrics in four forms: the original Persian script, Latinized Persian, Turkish translation, and English. *These translations are inspired from various sources, including [LyricsTranslate](https://lyricstranslate.com) and community interpretations, but have not been checked and refined yet. Please reach out to fix any errors.*
 
 <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/34GMpITRVZw5Gy4iVA2yFp?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 ---
@@ -250,4 +250,4 @@ related_posts: false
 
 ## My Thoughts
 
-*[Buraya kendi görüşlerini yazabilirsin...]*
+To be updated
