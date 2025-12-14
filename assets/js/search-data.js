@@ -41,6 +41,28 @@ ninja.data = [{
             window.location.href = "/blog/2025/first_blog_post/";
           
         },
+      },{id: "post-ey-sareban",
+        
+          title: "Ey Sareban",
+        
+        description: "Exploring Mohsen Namjoo&#39;s version of an old Persian poem",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/first-poetry-post/";
+          
+        },
+      },{id: "post-ey-sareban-pure-markdown",
+        
+          title: "Ey Sareban - pure markdown",
+        
+        description: "Exploring Mohsen Namjoo&#39;s version of an old Persian poem",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/ey-sareban/";
+          
+        },
       },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
