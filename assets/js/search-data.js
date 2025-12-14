@@ -23,13 +23,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "nav-blog",
-          title: "blog",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/blog/";
-          },
         },{id: "post-the-manifesto-of-the-blog",
         
           title: "The manifesto of the blog",
@@ -41,26 +34,15 @@ ninja.data = [{
             window.location.href = "/blog/2025/first_blog_post/";
           
         },
-      },{id: "post-ey-sareban",
+      },{id: "post-ey-sareban-draft",
         
-          title: "Ey Sareban",
+          title: "Ey Sareban (draft)",
         
         description: "Exploring Mohsen Namjoo&#39;s version of an old Persian poem",
         section: "Posts",
         handler: () => {
           
             window.location.href = "/blog/2025/first-poetry-post/";
-          
-        },
-      },{id: "post-ey-sareban-pure-markdown",
-        
-          title: "Ey Sareban - pure markdown",
-        
-        description: "Exploring Mohsen Namjoo&#39;s version of an old Persian poem",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/ey-sareban/";
           
         },
       },{id: "books-the-godfather",
