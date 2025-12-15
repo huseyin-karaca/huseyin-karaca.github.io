@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Joint optimization problem of living
+title: PhD applications (as a joint optimization problem)
 date: 2025-12-15 11:59:00 +0300
 description: let's continue
 tags: ideas
