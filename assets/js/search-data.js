@@ -23,9 +23,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-joint-optimization-problem-of-living",
+        },{id: "post-phd-applications-as-a-joint-optimization-problem",
         
-          title: "Joint optimization problem of living",
+          title: "PhD applications (as a joint optimization problem)",
         
         description: "let&#39;s continue",
         section: "Posts",
