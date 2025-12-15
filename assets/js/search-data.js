@@ -23,7 +23,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-the-manifesto-of-the-blog",
+        },{id: "post-joint-optimization-problem-of-living",
+        
+          title: "Joint optimization problem of living",
+        
+        description: "let&#39;s continue",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/second_blog_post/";
+          
+        },
+      },{id: "post-the-manifesto-of-the-blog",
         
           title: "The manifesto of the blog",
         
