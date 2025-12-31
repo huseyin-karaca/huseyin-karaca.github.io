@@ -23,11 +23,11 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-i̇letişim-gerçeklik-ve-anlaşılmanın-zamanlaması-üzerine",
+        },{id: "post-i̇letişim-gerçeklik-ve-anlaşılmak-üzerine",
         
-          title: "İletişim, Gerçeklik ve Anlaşılmanın Zamanlaması Üzerine",
+          title: "İletişim, Gerçeklik ve Anlaşılmak Üzerine",
         
-        description: "Ortada tek bir gerçeklik mi var, yoksa herkesin kendi gerçekliği mi? İletişim kazaları, analiz paralizi ve haklı olmanın &quot;transmission&quot; süresi üzerine sesli düşünceler.",
+        description: "Ortada tek bir gerçeklik mi var, yoksa herkesin kendi gerçekliği mi?",
         section: "Posts",
         handler: () => {
           
