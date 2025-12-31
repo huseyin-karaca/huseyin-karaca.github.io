@@ -1,8 +1,8 @@
 ---
 layout: post
-title: İletişim, Gerçeklik ve Anlaşılmanın Zamanlaması Üzerine
+title: İletişim, Gerçeklik ve Anlaşılmak Üzerine
 date: 2025-12-15 16:30:00 +0300
-description: Ortada tek bir gerçeklik mi var, yoksa herkesin kendi gerçekliği mi? İletişim kazaları, analiz paralizi ve haklı olmanın "transmission" süresi üzerine sesli düşünceler.
+description: Ortada tek bir gerçeklik mi var, yoksa herkesin kendi gerçekliği mi? 
 tags: ideas
 categories: 
 giscus_comments: false
