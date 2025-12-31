@@ -1,0 +1,177 @@
+\documentclass{article}
+\usepackage[margin=1.5cm]{geometry}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fontawesome}
+\usepackage{academicons}
+\usepackage{array}
+
+\renewcommand*\familydefault{\sfdefault}
+
+\begin{document}
+
+\begin{center}
+    {\Huge \textbf{ {{- cv.name -}} }} \\ \vspace{5pt}
+    
+    \href{mailto:{{ cv.email }}}{\faEnvelope~{{ cv.email }}} \quad
+    \href{tel:{{ cv.phone | replace(' ', '') }}}{\faPhone~{{ cv.phone }}} \quad
+    \faHome~{{ cv.address }} \quad
+    \href{ {{- cv.website -}} }{\faLink~{{ cv.website | replace('https://', '') | replace('http://', '') }}} \quad
+    {%- for sn in cv.social_networks -%}
+        {%- if sn.network == 'LinkedIn' -%}
+            \href{https://www.linkedin.com/in/{{ sn.username }}}{\faLinkedin~{{ sn.username }}} \quad
+        {%- elif sn.network == 'Google Scholar' -%}
+            \href{https://scholar.google.com/scholar?q={{ sn.username | replace(' ', '+') }}}{\faGraduationCap~{{ sn.username }}} \quad
+        {%- elif sn.network == 'GitHub' -%}
+            \href{https://github.com/{{ sn.username }}}{\faGithub~{{ sn.username }}} \quad
+        {%- endif -%}
+    {%- endfor -%}
+\end{center}
+
+\section*{Education}
+\leaders\vrule width \textwidth\vskip0.4pt % or other desired thickness
+\vskip\medskipamount % ditto
+\nointerlineskip
+{% for edu in cv.sections.education %}
+    \noindent \textbf{ {{- edu.degree -}} } in {{ edu.area }} \hfill {{ edu.start_date }} -- {{ edu.end_date }} \\
+    \textit{ \href{ {{- edu.url -}} }{ {{- edu.institution -}} } }\hfill {{ edu.location }} \\
+    \noindent {{ edu.highlights | join('\n \n \\noindent ') }}
+    \medskip
+{% endfor %}
+
+\vspace{-0.2 cm}
+\section*{Research Experience}
+\leaders\vrule width \textwidth\vskip0.4pt
+\vskip\medskipamount
+\nointerlineskip
+{% for re in cv.sections.research_experience %}
+    \noindent \textbf{ {{- re.position -}} } \hfill {{ re.start_date }} -- {{ re.end_date }} \\
+    \textit{ \href{ {{- re.url -}} }{ {{- re.company -}} } } \hfill {{ re.location }} \\
+    \noindent {{ re.highlights | join('\n \n \\noindent ') }}
+    \medskip
+{% endfor %}
+
+\vspace{-0.2 cm}
+\section*{Publications}
+\leaders\vrule width \textwidth\vskip0.4pt
+\vskip\medskipamount
+\nointerlineskip
+
+{% for type, prefix in [('journal', 'J'), ('conference', 'C'), ('preprint', 'P')] %}
+    {% set pubs = cv.sections.publications | selectattr('doc_type', 'equalto', type) | list %}
+    {% if pubs %}
+        \begin{itemize}
+        \setlength{\itemsep}{0.2em}
+        {% for pub in pubs %}
+        \item[{{ prefix }}{{ loop.revindex }}] {{ pub.authors | join(', ') | bold_name }}. ``{{ pub.title }}''. {% if pub.journal %}\textit{ {{- pub.journal -}} }{% elif pub.conference %}\textit{ {{- pub.conference -}} }{% endif %}{% if (pub.journal or pub.conference) and pub.date %}, {% endif %}{{ pub.date }}.{% if pub.doi %} DOI: \href{https://doi.org/{{ pub.doi }}}{ {{- pub.doi -}} }{% elif pub.url %} \href{ {{- pub.url -}} }{[Link]}{% endif %}
+        {% endfor %}
+        \end{itemize}
+    {% endif %}
+{% endfor %}
+
+\section*{Teaching Experience}
+\leaders\vrule width \textwidth\vskip0.4pt
+\vskip\medskipamount
+\nointerlineskip
+
+{% for te in cv.sections.teaching_experience %}
+    % Header: Position & Company on two lines (standard)
+    \noindent \textbf{ {{- te.position -}} } \hfill {{ te.start_date }} -- {{ te.end_date }} \\
+    \textit{ {{- te.company -}} } \hfill {{ te.location }}
+
+    % Compact Course List
+    {% if te.courses %}
+    \noindent {{ te.summary }} 
+        {% for course in te.courses %}
+            \noindent - \textit{ {{- course.name -}} } \textit{({{ course.semester }}, {{ course.coordinator }})}.
+        {% endfor %}
+    {% endif %}
+    
+    % Use smallskip instead of medskip between jobs to save space
+    \smallskip 
+{% endfor %}
+
+% \vspace{-0.5 cm}
+
+\section*{Skills}
+\leaders\vrule width \textwidth\vskip0.4pt
+\vskip\medskipamount
+\nointerlineskip
+\begin{tabular}{ @{} >{\bfseries}p{0.15\textwidth} p{0.82\textwidth} }
+{% for skill in cv.sections.skills %}
+    {{ skill.label }}: & {{ skill.details }} \\
+{% endfor %}
+\end{tabular}
+\medskip
+
+
+% \vspace{-0.75 cm}
+
+\section*{Achievements and Honors}
+
+\vskip\smallskipamount
+\leaders\vrule width \textwidth\vskip0.4pt
+\vskip\medskipamount
+\nointerlineskip
+
+{% for entry in cv.sections.achievements_and_honors %}
+    \medskip \noindent
+        {% if entry.title %}\noindent \textbf{ {{- entry.title -}} }{% endif %}
+        {% if entry.description %}
+            \noindent \textit{ {{- entry.description -}} }
+        {% endif %}
+        
+        {% for item in entry.entries %}
+            \noindent $\ast$ {{ item.name }} \hfill {{- item.date -}}
+            {% if item.description %}
+                \\ \noindent \textit{ {{- item.description -}} }
+                {% if not loop.last %}\medskip{% endif %}
+            {% else %}
+            {% endif %}
+        {% endfor %}    
+{% endfor %}
+
+\section*{Extracurricular Activities}
+\leaders\vrule width \textwidth\vskip0.4pt
+\vskip\medskipamount
+\nointerlineskip
+{% for activity in cv.sections.extracurricular_activities %}
+    \noindent \textbf{ {{- activity.name -}} }
+    {% if activity.location %}\\ \textit{ {{ activity.location }} } {% endif %}
+    {% if activity.summary %}\noindent \textit{ {{- activity.summary -}} } \\ {% endif %}
+    {% if activity.highlights %}
+    \noindent {{ activity.highlights | join('\n \n \\noindent ') }}
+    {% endif %}
+    \medskip
+{% endfor %}
+
+
+
+% \clearpage
+%
+% \noindent - TUBITAK 2210-A National Graduate Scholarship Program Grantee
+%
+% \noindent - TUBITAK 2224-D Support Program for Participation in Scientific Activities Abroad Grantee
+%
+% \noindent - TUBITAK 2205 Undergraduate Scholarship Grantee
+%
+% \noindent - METU EEE STAR Departmental Undergraduate Research Program 3rd Place Award ``Towards Age-Aware LoRa''
+%
+% \noindent - Ranked 24th, 38th, and 479th among 2.6M in National University Entrance Examination (YKS)
+%
+% \noindent - Presidential Merit Scholarship 
+%
+% \noindent - Is Bank Golden Youth Award 
+%
+% \noindent - METU Dev. Found. Success Scholarship. 
+%
+% \noindent - Ranked 1st among 1.4M participants in National High School Entrance Examination (TEOG)
+%
+% \noindent - Bronze medal in TUBITAK National Physics Olympiads
+%
+% \noindent - Took part in the national team and represented Turkey in the regional olympiads held in Russia and Estonia.
+%
+%
+% \clearpage
+
+
+\end{document}

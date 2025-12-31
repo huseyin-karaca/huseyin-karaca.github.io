@@ -23,7 +23,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-phd-applications-as-a-joint-optimization-problem",
+        },{id: "post-i̇letişim-gerçeklik-ve-anlaşılmanın-zamanlaması-üzerine",
+        
+          title: "İletişim, Gerçeklik ve Anlaşılmanın Zamanlaması Üzerine",
+        
+        description: "Ortada tek bir gerçeklik mi var, yoksa herkesin kendi gerçekliği mi? İletişim kazaları, analiz paralizi ve haklı olmanın &quot;transmission&quot; süresi üzerine sesli düşünceler.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/third-blog-post/";
+          
+        },
+      },{id: "post-phd-applications-as-a-joint-optimization-problem",
         
           title: "PhD applications (as a joint optimization problem)",
         
