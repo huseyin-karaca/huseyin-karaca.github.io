@@ -1,7 +1,7 @@
 ---
 layout: post
 title: İletişim, Gerçeklik ve Anlaşılmak Üzerine
-date: 2026-01-15 16:30:00 +0300
+date: 2026-01-15 14:30:00 +0300
 description: Can we greatly automate our research paper writing process with flexible ai agents?
 tags: ideas
 categories: 
