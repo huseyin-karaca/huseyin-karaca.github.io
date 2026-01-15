@@ -23,9 +23,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-i̇letişim-gerçeklik-ve-anlaşılmak-üzerine",
+        },{id: "post-ai-agent-for-automated-research-paper-drafting",
         
-          title: "İletişim, Gerçeklik ve Anlaşılmak Üzerine",
+          title: "AI Agent for Automated Research Paper Drafting",
         
         description: "Can we greatly automate our research paper writing process with flexible ai agents?",
         section: "Posts",
