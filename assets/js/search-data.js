@@ -27,6 +27,17 @@ ninja.data = [{
         
           title: "İletişim, Gerçeklik ve Anlaşılmak Üzerine",
         
+        description: "Can we greatly automate our research paper writing process with flexible ai agents?",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/research-paper-ai-agent/";
+          
+        },
+      },{id: "post-i̇letişim-gerçeklik-ve-anlaşılmak-üzerine",
+        
+          title: "İletişim, Gerçeklik ve Anlaşılmak Üzerine",
+        
         description: "Ortada tek bir gerçeklik mi var, yoksa herkesin kendi gerçekliği mi?",
         section: "Posts",
         handler: () => {
