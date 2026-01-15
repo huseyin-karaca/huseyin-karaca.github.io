@@ -1,6 +1,6 @@
 ---
 layout: post
-title: İletişim, Gerçeklik ve Anlaşılmak Üzerine
+title: AI Agent for Automated Research Paper Drafting
 date: 2026-01-15 14:30:00 +0300
 description: Can we greatly automate our research paper writing process with flexible ai agents?
 tags: ideas
