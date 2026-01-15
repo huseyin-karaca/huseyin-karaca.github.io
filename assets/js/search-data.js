@@ -23,7 +23,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-ai-agent-for-automated-research-paper-drafting",
+        },{id: "post-revisiting-an-old-paper",
+        
+          title: "Revisiting an old paper",
+        
+        description: "Can we reformulate an old universal randomized switching paper with respect to Bayesian terminology?",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/randomized-switching-paper-revisited/";
+          
+        },
+      },{id: "post-ai-agent-for-automated-research-paper-drafting",
         
           title: "AI Agent for Automated Research Paper Drafting",
         
