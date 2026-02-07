@@ -23,7 +23,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-revisiting-an-old-paper",
+        },{id: "post-my-coffee-setup",
+        
+          title: "My Coffee Setup",
+        
+        description: "What I think is the best for pour-over, for exploiters?",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/coffee-setup/";
+          
+        },
+      },{id: "post-revisiting-an-old-paper",
         
           title: "Revisiting an old paper",
         
