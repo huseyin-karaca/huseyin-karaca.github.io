@@ -22,13 +22,13 @@ cv:
       - institution: Bilkent University
         area: Electrical and Electronics Engineering
         degree: Master of Science
-        grade: '3.93/4.00'
+        grade: '3.87/4.00'
         url: https://w3.bilkent.edu.tr/bilkent/
         start_date: 2024-07
         end_date: present
         location: Ankara, Türkiye
         highlights:
-          - "Grade: 3.93/4.00"
+          - "Grade: 3.87/4.00"
           - "Advisor: Prof. Dr. Süleyman Serdar Kozat"
           - "Thesis topic: Ensemble learning and feature selection methods for time-series forecasting"
       - institution: Middle East Technical University
@@ -53,6 +53,8 @@ cv:
         summary:
         highlights:
           - "Grade: 97.19/100"
+          # - Attended physics olympiads and won the bronze medal.
+          # - Elected as the student council president.
 
     research_experience:
       - company: UCLA (The Ozcan Research Group)
@@ -62,7 +64,7 @@ cv:
         start_date: 2023-07
         end_date: 2023-09
         location: Los Angeles, CA, USA
-        summary: Supported by TUBITAK 2224-D scholarship.
+        summary:
         highlights:
           - Studied diffusion models for biomedical images under the supervision of Prof. Dr. Aydogan Ozcan.
           - Helped the preparation of 3D printed diffractive layers for an all-optical image denoiser network.
@@ -118,7 +120,6 @@ cv:
       - Karaca, H.
       journal: arXiv preprint
       doi: 10.48550/arXiv.2507.22632
-      url: https://arxiv.org/abs/2507.22632
       date: '2025'
       doc_type: preprint
     - title: Soft Gradient Boosting with Learnable Feature Transforms for Sequential Regression
@@ -126,8 +127,7 @@ cv:
       - Karaca, H.
       - Kozat, S.S.
       journal: IEEE Signal Processing Letters
-      doi: 10.48550/arXiv.2509.12920
-      url: https://arxiv.org/abs/2509.12920
+      doi: 10.1109/LSP.2025.3639345
       doc_type: journal
       date: '2024'
     - title: All-optical image denoising using a diffractive visual processor
@@ -157,16 +157,10 @@ cv:
       - Aydin, F.S.
       - Unsal, E.A.
       - Vural, E.
-      conference: IEEE Signal Processing and Communications Applications (SIU)
       doi: 10.1109/SIU59756.2023.10223790
       date: '2023'
+      conference: IEEE Signal Processing and Communications Applications (SIU)
       doc_type: conference
-    - title: Time and Context Aware LSTM Ensemble for Sequential Regression
-      authors:
-      - Karaca, H.
-      - Kozat, S.S.
-      journal: In preparation
-      date: '2025'
 
     teaching_experience:
       - company: Bilkent University
@@ -186,9 +180,9 @@ cv:
             coordinator: Prof. Dr. Billur Barshan
             role: Guiding and evaluating students during laboratory sessions, grading reports and quizzes.
           - name: EEE321 Signals and Systems
-            semester: Fall 2025
+            semester: Fall 2025, Spring 2026
             coordinator: Prof. Dr. Haldun Özaktaş
-            role: Organized recitations to reinforce core lecture topics.
+            role: Organized recitations to reinforce core lecture topics. Reviewed and refined lab manuals and quizzes for suitability.
       - company: Middle East Technical University
         position: Undergraduate Teaching Assistant
         date:
@@ -329,214 +323,3 @@ cv:
           - Organized a spring festival and ``Happy New Year!'' party (three years in a row).
           - Designed and sold printed hoodies for the Class of 2019.
           - Founded a book society and organized weekly book review meetings.
-
-design:
-  theme: themehus
-  page:
-    size: us-letter
-    top_margin: 2cm
-    bottom_margin: 2cm
-    left_margin: 2cm
-    right_margin: 2cm
-    show_page_numbering: true
-    show_last_updated_date: true
-  colors:
-    text: rgb(0, 0, 0)
-    name: rgb(0, 0, 0)
-    connections: rgb(0, 0, 0)
-    section_titles: rgb(0, 0, 0)
-    links: rgb(0, 79, 144)
-    last_updated_date_and_page_numbering: rgb(128, 128, 128)
-  text:
-    font_family: New Computer Modern
-    font_size: 10pt
-    leading: 0.6em
-    alignment: justified
-    date_and_location_column_alignment: right
-  links:
-    underline: true
-    use_external_link_icon: false
-  header:
-    name_font_family: New Computer Modern
-    name_font_size: 30pt
-    name_bold: true
-    small_caps_for_name: false
-    photo_width: 3.5cm
-    vertical_space_between_name_and_connections: 0.7cm
-    vertical_space_between_connections_and_first_section: 0.7cm
-    horizontal_space_between_connections: 0.5cm
-    connections_font_family: New Computer Modern
-    separator_between_connections: ''
-    use_icons_for_connections: true
-    use_urls_as_placeholders_for_connections: false
-    make_connections_links: true
-    alignment: center
-  section_titles:
-    type: with-full-line
-    font_family: New Computer Modern
-    font_size: 1.4em
-    bold: true
-    small_caps: false
-    line_thickness: 0.5pt
-    vertical_space_above: 0.5cm
-    vertical_space_below: 0.3cm
-  entries:
-    date_and_location_width: 4.15cm
-    left_and_right_margin: 0.2cm
-    horizontal_space_between_columns: 0.1cm
-    vertical_space_between_entries: 1.2em
-    allow_page_break_in_sections: true
-    allow_page_break_in_entries: true
-    short_second_row: false
-    show_time_spans_in: []
-  highlights:
-    bullet: ◦
-    nested_bullet: '-'
-    top_margin: 0.25cm
-    left_margin: 0.4cm
-    vertical_space_between_highlights: 0.25cm
-    horizontal_space_between_bullet_and_highlight: 0.5em
-    summary_left_margin: 0cm
-  entry_types:
-    one_line_entry:
-      template: '**LABEL:** DETAILS'
-    education_entry:
-      main_column_first_row_template: |-
-        **INSTITUTION**
-        *DEGREE in AREA*
-      degree_column_template:
-      degree_column_width: 1cm
-      main_column_second_row_template: |-
-        SUMMARY
-        HIGHLIGHTS
-      date_and_location_column_template: |-
-        *LOCATION*
-        *DATE*
-    normal_entry:
-      main_column_first_row_template: '**NAME**'
-      main_column_second_row_template: |-
-        SUMMARY
-        HIGHLIGHTS
-      date_and_location_column_template: |-
-        *LOCATION*
-        *DATE*
-    experience_entry:
-      main_column_first_row_template: |-
-        **POSITION**
-        *COMPANY*
-      main_column_second_row_template: |-
-        SUMMARY
-        HIGHLIGHTS
-      date_and_location_column_template: |-
-        *LOCATION*
-        *DATE*
-    publication_entry:
-      main_column_first_row_template: 'AUTHORS, **TITLE**, JOURNAL, DATE, doi: DOI.'
-      main_column_second_row_template: ''
-      main_column_second_row_without_journal_template: ''
-      main_column_second_row_without_url_template: ''
-      date_and_location_column_template: DATE
-locale:
-  language: en
-  phone_number_format: national
-  page_numbering_template: NAME - Page PAGE_NUMBER of TOTAL_PAGES
-  last_updated_date_template: Last updated in TODAY
-  date_template: MONTH_ABBREVIATION YEAR
-  month: month
-  months: months
-  year: year
-  years: years
-  present: present
-  to: –
-  abbreviations_for_months:
-    - Jan
-    - Feb
-    - Mar
-    - Apr
-    - May
-    - June
-    - July
-    - Aug
-    - Sept
-    - Oct
-    - Nov
-    - Dec
-  full_names_of_months:
-    - January
-    - February
-    - March
-    - April
-    - May
-    - June
-    - July
-    - August
-    - September
-    - October
-    - November
-    - December
-rendercv_settings:
-  date: '2025-11-22'
-  bold_keywords: []
-  sort_entries: none
-
-
-
-# design:
-#   theme: engineeringresumes
-#   page:
-#     size: a4
-#     top_margin: 1.5cm
-#     bottom_margin: 1.5cm
-#     left_margin: 1.5cm
-#     right_margin: 1.5cm
-#     show_page_numbering: true
-#     show_last_updated_date: true
-#   colors:
-#     text: rgb(0, 0, 0)
-#     section_titles: rgb(0, 0, 0)
-#     links: rgb(0, 0, 0)
-#   text:
-#     font_family: Source Sans 3
-#     font_size: 11pt
-#     alignment: justified
-#   header:
-#     name_font_family: Source Sans 3
-#     name_font_size: 20pt
-#     name_bold: false
-#     alignment: center
-#   section_titles:
-#     type: with-full-line
-#     bold: true
-#     font_size: 1.2em
-#   entries:
-#     vertical_space_between_entries: 0.4cm
-#   highlights:
-#     bullet: '-'
-#   entry_types:
-#     education_entry:
-#       main_column_first_row_template: '**INSTITUTION**, DEGREE in AREA'
-#       main_column_second_row_template: |-
-#         SUMMARY
-#         HIGHLIGHTS
-#       date_and_location_column_template: |-
-#         DATE \
-#         LOCATION
-#     experience_entry:
-#       main_column_first_row_template: '**POSITION**, COMPANY'
-#       main_column_second_row_template: |-
-#         SUMMARY
-#         HIGHLIGHTS
-#       date_and_location_column_template: |-
-#         DATE \
-#         LOCATION
-#     publication_entry:
-#       main_column_first_row_template: 'TITLE (DOI)'
-#       main_column_second_row_template: |-
-#         AUTHORS
-#         *JOURNAL* \hfill [DOI](https://doi.org/DOI)
-#       date_and_location_column_template: DATE
-# locale:
-#   language: en
-#   date_template: MONTH_ABBREVIATION YEAR
-# rendercv_settings:
-#   date: '2025-11-21'

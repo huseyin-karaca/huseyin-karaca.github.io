@@ -22,13 +22,13 @@ cv:
       - institution: Bilkent University
         area: Electrical and Electronics Engineering
         degree: Master of Science
-        grade: '3.93/4.00'
+        grade: '3.87/4.00'
         url: https://w3.bilkent.edu.tr/bilkent/
         start_date: 2024-07
         end_date: present
         location: Ankara, Türkiye
         highlights:
-          - "Grade: 3.93/4.00"
+          - "Grade: 3.87/4.00"
           - "Advisor: Prof. Dr. Süleyman Serdar Kozat"
           - "Thesis topic: Ensemble learning and feature selection methods for time-series forecasting"
       - institution: Middle East Technical University
@@ -53,6 +53,8 @@ cv:
         summary:
         highlights:
           - "Grade: 97.19/100"
+          - Attended physics olympiads and won the bronze medal.
+          - Elected as the student council president.
 
     research_experience:
       - company: UCLA (The Ozcan Research Group)
@@ -178,9 +180,9 @@ cv:
             coordinator: Prof. Dr. Billur Barshan
             role: Guiding and evaluating students during laboratory sessions, grading reports and quizzes.
           - name: EEE321 Signals and Systems
-            semester: Fall 2025
+            semester: Fall 2025, Spring 2026
             coordinator: Prof. Dr. Haldun Özaktaş
-            role: Organized recitations to reinforce core lecture topics.
+            role: Organized recitations to reinforce core lecture topics. Reviewed and refined lab manuals and quizzes for suitability.
       - company: Middle East Technical University
         position: Undergraduate Teaching Assistant
         date:
