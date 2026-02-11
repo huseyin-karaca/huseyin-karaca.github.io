@@ -10,7 +10,8 @@ url = {https://www.sciencedirect.com/science/article/pii/S1051200425005500},
 author = {Huseyin Karaca and Aysin Tumay and Ali Taha Koc and Suleyman Serdar Kozat},
 keywords = {Feature selection, Ensemble learning, The curse of dimensionality, Hierarchical ensemble, Light gradient boosting machine (LightGBM), Time-domain signal prediction},
 abstract = {We introduce a hierarchical ensemble-based feature selection (HEFS) method specifically designed for high-dimensional, non-stationary time series prediction tasks. Traditional methods typically select a single dominant subset of features, potentially neglecting valuable information from non-selected subsets. In contrast, our approach employs a multi-layer hierarchical structure, where dominant features are initially used to train the first layer, and non-dominant features are sequentially processed in subsequent layers. A novel cost-optimization block bridges each layer, recalibrating the predictions of the previous layer by directly minimizing the final loss. Thus, effectively capturing interactions across feature groups in different layers and overcoming some of the limitations of classical gradient boosting-based ensembles. Extensive experiments on synthetic and real-world datasets demonstrate that our method significantly outperforms classical approaches in predictive accuracy and robustness against overfitting. To promote transparency and reproducibility, we publicly share our implementation code.},
-selected={true}
+selected={true},
+preview     = {hefs.png}
 }
 
 
@@ -24,7 +25,8 @@ selected={true}
       doi={10.48550/arXiv.2507.22632},
       abstract={Domain adaptation seeks to leverage the abundant label information in a source domain to improve classification performance in a target domain with limited labels. While the field has seen extensive methodological development, its theoretical foundations remain relatively underexplored. Most existing theoretical analyses focus on simplified settings where the source and target domains share the same input space and relate target-domain performance to measures of domain discrepancy. Although insightful, these analyses may not fully capture the behavior of modern approaches that align domains into a shared space via feature transformations. In this paper, we present a comprehensive theoretical study of domain adaptation algorithms based on domain alignment. We consider the joint learning of domain-aligning feature transformations and a shared classifier in a semi-supervised setting. We first derive generalization bounds in a broad setting, in terms of covering numbers of the relevant function classes. We then extend our analysis to characterize the sample complexity of domain-adaptive neural networks employing maximum mean discrepancy (MMD) or adversarial objectives. Our results rely on a rigorous analysis of the covering numbers of these architectures. We show that, for both MMD-based and adversarial models, the sample complexity admits an upper bound that scales quadratically with network depth and width. Furthermore, our analysis suggests that in semi-supervised settings, robustness to limited labeled target data can be achieved by scaling the target loss proportionally to the square root of the number of labeled target samples. Experimental evaluation in both shallow and deep settings lends support to our theoretical findings.},
       url={https://arxiv.org/abs/2507.22632}, 
-      selected={true}
+      selected={true},
+      preview     = {semisup-da.png}
 }
 
 @ARTICLE{11271849,
@@ -40,7 +42,9 @@ selected={true}
   doi={10.1109/LSP.2025.3639345},
   ISSN={1558-2361},
   selected={true},
-  month={},}
+  month={},
+  preview     = {bsdtq.png}
+}
 
 
 @article{isil_all-optical_2024,
@@ -56,7 +60,8 @@ selected={true}
 	month = feb,
 	year = {2024},
 	pages = {43},
-  selected={true}
+  selected={true},
+  preview     = {all-optical.png}
 }
 
 @INPROCEEDINGS{10223790,
@@ -72,7 +77,9 @@ selected={true}
   doi={10.1109/SIU59756.2023.10223790},
   ISSN={2165-0608},
   month={July},
-  selected={false}}
+  selected={false},
+  preview     = {mmd-siu.png}
+}
 
 @inproceedings{10.1117/12.3042134,
 author = {{\c{C}}ağatay Işıl and Hanlong Chen and Tianyi Gan and F. Onuralp Ardic and Koray Mentesoglu and Jagrit Digani and Huseyin Karaca and Jingxi Li and Deniz Mengu and Mona Jarrahi and Kaan Akşit and Aydogan Ozcan},
@@ -87,5 +94,6 @@ abstract = {We report an all-optical image-denoising approach utilizing spatiall
 keywords = {image denoising, all-optical computing, real-time image processing, computational imaging},
 year = {2025},
 doi = {10.1117/12.3042134},
-URL = {https://doi.org/10.1117/12.3042134}
+URL = {https://doi.org/10.1117/12.3042134},
+preview     = {all-optical-2.png}
 }
