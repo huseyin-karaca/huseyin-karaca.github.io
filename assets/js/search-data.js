@@ -144,7 +144,7 @@ ninja.data = [{
           section: "News",},{id: "news-my-paper-titled-hierarchical-ensemble-based-feature-selection-for-time-series-prediction-was-published-in-digital-signal-processing",
           title: 'My paper titled “Hierarchical ensemble-based feature selection for time series prediction” was published...',
           description: "",
-          section: "News",},{id: "news-i-was-honored-with-the-ict-authority-of-türkiye-5g-and-beyond-graduate-research-scholarship-for-my-graduate-studies",
+          section: "News",},{id: "news-i-was-honored-with-the-ict-authority-of-türkiye-5g-and-beyond-graduate-research-fellowship-for-my-graduate-studies",
           title: 'I was honored with the ICT Authority of Türkiye 5G and Beyond Graduate...',
           description: "",
           section: "News",},{id: "news-my-paper-titled-soft-gradient-boosting-with-learnable-feature-transforms-for-sequential-regression-was-published-in-ieee-signal-processing-letters",
