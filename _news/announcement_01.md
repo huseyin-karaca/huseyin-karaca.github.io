@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I was honored with the **ICT Authority of Türkiye 5G and Beyond Graduate Research Scholarship** for my graduate studies.
+I was honored with the **ICT Authority of Türkiye 5G and Beyond Graduate Research Fellowship** for my graduate studies.
