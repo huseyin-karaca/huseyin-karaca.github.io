@@ -29,7 +29,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a second-year Master's student in Electrical and Electronics Engineering at [Bilkent University](https://ee.bilkent.edu.tr/en/), advised by [Prof. Dr. Süleyman Serdar Kozat](https://kilyos.ee.bilkent.edu.tr/~kozat/). I am also affiliated with [Türk Telekom](https://turktelekom.com.tr) as a graduate research fellow. My current research lies at the intersection of machine learning and signal processing, with a growing focus on the theoretical foundations that underpin these methods. I am particularly drawn to questions in statistical learning theory and am seeking a PhD position where I can pursue rigorous, theory-driven research.
+I am a second-year Master's student in Electrical and Electronics Engineering at [Bilkent University](https://ee.bilkent.edu.tr/en/), advised by [Prof. Dr. Süleyman Serdar Kozat](https://kilyos.ee.bilkent.edu.tr/~kozat/). I am also affiliated with [Türk Telekom](https://turktelekom.com.tr) as a graduate research fellow. My current research lies at the intersection of machine learning and signal processing, with a growing focus on the theoretical foundations that underpin these methods. 
 
 I hold a B.S. in Electrical and Electronics Engineering from [Middle East Technical University](https://eee.metu.edu.tr) and am a proud alumnus of [Ankara High School of Science](https://en.wikipedia.org/wiki/Ankara_Science_High_School).
 
