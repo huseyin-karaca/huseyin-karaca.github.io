@@ -2,7 +2,7 @@
 layout: post
 title: Düşünsel Üretimde Formun Önemi Üzerine
 date: 2026-07-03 14:00:00 +0300
-description: Süreç odaklılıkta sonuç odaklı olmanın önemi de denebilir. 
+description: Zihinsel kaosu anlamlı bir bütüne çevirmek: Üretim süreçlerinde nihai "form"un düzenleyici ve kolaylaştırıcı gücü üzerine bir inceleme.
 tags: ideas
 categories: 
 giscus_comments: false
