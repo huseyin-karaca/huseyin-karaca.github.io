@@ -23,15 +23,15 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-düşünsel-üretimde-formun-önemi-üzerine",
+        },{id: "post-",
         
-          title: "Düşünsel Üretimde Formun Önemi Üzerine",
+          title: "",
         
-        description: "Süreç odaklılıkta sonuç odaklı olmanın önemi de denebilir.",
+        description: "",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2026/essay-form/";
+            window.location.href = "/blog/2026/2026-07-03-essay-form/";
           
         },
       },{id: "post-my-coffee-setup",
