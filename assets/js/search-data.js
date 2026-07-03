@@ -23,15 +23,15 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-",
+        },{id: "post-düşünsel-üretimde-formun-önemi-üzerine",
         
-          title: "",
+          title: "Düşünsel Üretimde Formun Önemi Üzerine",
         
-        description: "",
+        description: "Zihinsel kaosu anlamlı bir bütüne çevirmek: Üretim süreçlerinde nihai formun düzenleyici ve kolaylaştırıcı gücü üzerine bir inceleme.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2026/2026-07-03-essay-form/";
+            window.location.href = "/blog/2026/essay-form/";
           
         },
       },{id: "post-my-coffee-setup",
