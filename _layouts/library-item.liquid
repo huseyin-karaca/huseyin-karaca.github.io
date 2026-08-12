@@ -1,0 +1,36 @@
+---
+layout: default
+---
+<div class="library-item-container">
+  <div class="library-header">
+    <div class="library-cover-wrapper">
+      {% if page.cover %}
+        <img src="{{ page.cover | relative_url }}" alt="Cover for {{ page.title }}" class="library-cover-img">
+      {% else %}
+        <div class="library-no-cover"><i class="fas fa-book"></i><br>No Cover</div>
+      {% endif %}
+    </div>
+    <div class="library-meta">
+      <h1 class="library-title">{{ page.title }}</h1>
+      <h3 class="library-author">by {{ page.author }}</h3>
+      <div class="library-details">
+        {% if page.publisher %}<span class="library-publisher"><i class="fas fa-building"></i> {{ page.publisher }}</span>{% endif %}
+      </div>
+      <div class="library-status-badge status-{{ page.status | downcase | replace: ' ', '-' }}">{{ page.status }}</div>
+    </div>
+  </div>
+
+  <div class="library-section library-review-section">
+    <h2 class="library-section-title">Review / Essay</h2>
+    <div class="library-review-content">
+      <p class="placeholder-text"><em>(Your review will appear here once you write it in the markdown file. You can simply add your review above the `# Title` in the markdown.)</em></p>
+    </div>
+  </div>
+
+  <div class="library-section library-annotations-section">
+    <h2 class="library-section-title">Annotations & Highlights</h2>
+    <div class="library-annotations-content">
+      {{ content }}
+    </div>
+  </div>
+</div>
