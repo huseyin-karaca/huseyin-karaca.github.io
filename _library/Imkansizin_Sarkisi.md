@@ -4,8 +4,13 @@ title: "İmkansızın Şarkısı"
 author: "Haruki Murakami"
 publisher: ""
 isbn: ""
+last_read: "2026-05-28"
 status: "Finished"
-cover: \"assets/img/library_covers/imkansizin_sarkisi.jpg\"
+cover: "assets/img/library_covers/imkansizin_sarkisi.jpg"
+---
+
+(Review here) 
+
 ---
 
 > Göreceğim, hissedeceğim ya da düşüneceğim her şeyin, dönüp dolaşıp bir bumerang gibi gene bana geleceği yaştaydım.
