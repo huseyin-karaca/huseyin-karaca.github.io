@@ -15,7 +15,7 @@ coffee_g: 11
 water_g: 200
 temp_c: 89
 water: Abant
-date: 02.08.26
+date: 2026-08-02
 price: 850₺ / 250 gr
 ---
 ## ⏱️ Step-by-Step Method
@@ -27,24 +27,24 @@ price: 850₺ / 250 gr
 
 ## 📝 Tasting Notes & Adjustments
 
-* **Notes:** Hala güçlü asidite, herkese gelmez. Ama ben çok sevdim.
+* **Notes:** The acidity is still quite pronounced, which might not appeal to everyone. However, I personally enjoyed it a lot.
 * **Adjustments for Next Time:** Maybe we can try higher temperatures. 
 * **Source/Inspiration:** James Hoffman (YouTube). However, he do not use stirrer, he gently swirls after two minutes and waits thirty second more. Other than that, pretty much the same recipe with him. 
 
 ## ☕️ About the  bean (details from the website)
 
-**Ülke:** Kolombiya  
-**Bölge:** Nariño  
-**Çiftlik:** Nariño Bölgesi Çiftlikleri (Üretici Kooperatifleri ve Dernekleri)  
-**Tür:** Arabica  
-**Hasat:** Mayıs - Temmuz  
-**Yükseklik:** 1800 - 2100  
-**Çeşit:** Castillo, Cenicafe, Caturra Rouge  
-**İşlem:** Yıkanmış (Washed)  
-**Tat Profili:** Vişne, Çikolata, Şeker Kamışı, Kayısı
+**Country:** Colombia  
+**Region:** Nariño  
+**Farm:** Nariño Region Farms (Producer Cooperatives and Associations)  
+**Species:** Arabica  
+**Harvest:** May - July  
+**Elevation:** 1800 - 2100m  
+**Varietal:** Castillo, Cenicafe, Caturra Rouge  
+**Process:** Washed  
+**Tasting Notes:** Sour Cherry, Chocolate, Sugarcane, Apricot
 
-**Strawberry** kahvesi, Kolombiya’nın Nariño bölgesindeki kahve üreticisi derneklerinden, kooperatiflerinden ve bölge boyunca yer alan seçkin çiftliklerden doğrudan tedarik edilmektedir. İsmini, kırmızı meyveleri ve çileği andıran tatlı, meyvemsi ve çiçeksi lezzet profilinden almaktadır.
+**Strawberry** coffee is sourced directly from coffee producer associations, cooperatives, and select farms throughout the Nariño region of Colombia. It gets its name from its sweet, fruity, and floral flavor profile that is reminiscent of red berries and strawberries.
 
-Nariño bölgesinde kahve ağaçlarının 2.000 metrenin üzerinde yetişmesi oldukça yaygındır. Bölgedeki yoğun bulut örtüsü ve düşük sıcaklıklar, kahve meyvelerinin olgunlaşma sürecini yavaşlatmaktadır. Bu yavaş süreç, çekirdeklerin boyut olarak küçük kalmasına ancak aroma açısından oldukça karmaşık ve güçlü bir yapı kazanmasına olanak tanır.
+It is quite common for coffee trees to grow above 2,000 meters in the Nariño region. The dense cloud cover and low temperatures in the area slow down the ripening process of the coffee cherries. This slow process causes the beans to remain relatively small in size but allows them to develop a highly complex and robust aromatic structure.
 
-Çiftliklerde toplanan kahve meyveleri, kalite standartlarına uygun olarak yıkanmış (washed) yöntemle işlenir ve ardından 20 gün boyunca kurutma yataklarında kurumaya bırakılır. Bu özenli süreç sayesinde, kahve hem yumuşak bir içim hem de derin bir aromatik karmaşıklık sunar. Bölgenin yüksek rakımı ve benzersiz iklim koşulları, bu kahveye özgü karakteristik asidite ve tatlılığı doğrudan belirleyen temel faktörlerdir.
+The coffee cherries collected at the farms are processed using the washed method in accordance with quality standards, and are then left to dry on drying beds for 20 days. Thanks to this meticulous process, the coffee offers both a smooth mouthfeel and deep aromatic complexity. The high altitude and unique climatic conditions of the region are the primary factors that directly determine the characteristic acidity and sweetness unique to this coffee.
