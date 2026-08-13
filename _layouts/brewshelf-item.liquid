@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<div class="library-item-container">
+  <div class="library-header">
+    <div class="library-meta">
+      <h1 class="library-title">{{ page.title }}</h1>
+      <h3 class="library-author">{{ page.roaster | default: page.bean }} - {{ page.origin }}</h3>
+      <div class="library-details">
+        {% if page.date %}<span class="library-date"><i class="fas fa-calendar-check"></i> Brewed on: {{ page.date }}</span>{% endif %}
+        {% if page.brewer %}<span class="library-date"><i class="fas fa-coffee"></i> Brewer: {{ page.brewer }}</span>{% endif %}
+      </div>
+      <div class="library-status-badge status-{{ page.process | downcase | replace: ' ', '-' }}">{{ page.process }}</div>
+    </div>
+  </div>
+
+  <div class="library-section library-annotations-section">
+    <div class="library-annotations-content">
+      {{ content }}
+    </div>
+  </div>
+</div>

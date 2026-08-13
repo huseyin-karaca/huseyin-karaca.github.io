@@ -144,6 +144,10 @@ collections:
     output: true
   library:
     output: true
+    permalink: /bookshelf/:title/
+  brewshelf:
+    output: true
+    permalink: /brewshelf/:title/
   news:
     defaults:
       layout: post
