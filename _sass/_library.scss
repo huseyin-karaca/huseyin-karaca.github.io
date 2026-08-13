@@ -39,10 +39,10 @@
     object-fit: cover;
     transition: transform 0.5s ease;
   }
+}
 
-  .library-card:hover & img {
-    transform: scale(1.05);
-  }
+.library-card:hover .library-card-cover img {
+  transform: scale(1.05);
 }
 
 .library-no-cover {
