@@ -23,6 +23,20 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
+        },{id: "nav-bookshelf",
+          title: "bookshelf",
+          description: "A personal archive of my reading journey on Kobo since last year, featuring unedited highlights, raw notes, and book reviews.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/bookshelf/";
+          },
+        },{id: "nav-brewshelf",
+          title: "brewshelf",
+          description: "My journal of specialty coffee explorations, detailing brew recipes and flavor profiles.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/brewshelf/";
+          },
         },{id: "post-düşünsel-üretimde-formun-önemi-üzerine",
         
           title: "Düşünsel Üretimde Formun Önemi Üzerine",
@@ -116,6 +130,86 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
+            },},{id: "brewshelf-switch-yirgacheffe",
+          title: 'Switch Yirgacheffe',
+          description: "",
+          section: "Brewshelf",handler: () => {
+              window.location.href = "/brewshelf/Switch-Yirgacheffe/";
+            },},{id: "brewshelf-aeropress-narino",
+          title: 'Aeropress Narino',
+          description: "",
+          section: "Brewshelf",handler: () => {
+              window.location.href = "/brewshelf/Aeropress-Narino/";
+            },},{id: "brewshelf-v60-kenya-kathakwa",
+          title: 'V60 Kenya Kathakwa',
+          description: "",
+          section: "Brewshelf",handler: () => {
+              window.location.href = "/brewshelf/V60-Kenya-Kathakwa/";
+            },},{id: "library-a-people-39-s-history-of-the-united-states",
+          title: 'A People&amp;#39;s History of the United States',
+          description: "",
+          section: "Library",handler: () => {
+              window.location.href = "/bookshelf/A_Peoples_History_of_the_United_States/";
+            },},{id: "library-bu-diyar-baştanbaşa-1-nuhun-gemisi",
+          title: 'Bu Diyar Baştanbaşa 1 - Nuhun Gemisi',
+          description: "",
+          section: "Library",handler: () => {
+              window.location.href = "/bookshelf/Bu_Diyar_Bastanbasa_1_-_Nuhun_Gemisi/";
+            },},{id: "library-eski-dünya-seyahatnamesi",
+          title: 'Eski Dünya Seyahatnamesi',
+          description: "",
+          section: "Library",handler: () => {
+              window.location.href = "/bookshelf/Eski_Dunya_Seyahatnamesi/";
+            },},{id: "library-ethics",
+          title: 'Ethics',
+          description: "",
+          section: "Library",handler: () => {
+              window.location.href = "/bookshelf/Ethics/";
+            },},{id: "library-i̇mkansızın-şarkısı",
+          title: 'İmkansızın Şarkısı',
+          description: "",
+          section: "Library",handler: () => {
+              window.location.href = "/bookshelf/Imkansizin_Sarkisi/";
+            },},{id: "library-man-39-s-search-for-meaning",
+          title: 'Man&amp;#39;s Search for Meaning',
+          description: "",
+          section: "Library",handler: () => {
+              window.location.href = "/bookshelf/Mans_Search_for_Meaning/";
+            },},{id: "library-renksiz-tsukuru-tazaki-39-nin-hac-yılları",
+          title: 'Renksiz Tsukuru Tazaki&amp;#39;nin Hac Yılları',
+          description: "",
+          section: "Library",handler: () => {
+              window.location.href = "/bookshelf/Renksiz_Tsukuru_Tazakinin_Hac_Yillari/";
+            },},{id: "library-savaş-ve-barış-cilt-i",
+          title: 'Savaş ve Barış Cilt I',
+          description: "",
+          section: "Library",handler: () => {
+              window.location.href = "/bookshelf/Savas_ve_Baris_Cilt_I/";
+            },},{id: "library-savaş-ve-barış-cilt-ii",
+          title: 'Savaş ve Barış Cilt II',
+          description: "",
+          section: "Library",handler: () => {
+              window.location.href = "/bookshelf/Savas_ve_Baris_Cilt_II/";
+            },},{id: "library-siddhartha",
+          title: 'Siddhartha',
+          description: "",
+          section: "Library",handler: () => {
+              window.location.href = "/bookshelf/Siddhartha/";
+            },},{id: "library-the-door",
+          title: 'The Door',
+          description: "",
+          section: "Library",handler: () => {
+              window.location.href = "/bookshelf/The_Door/";
+            },},{id: "library-the-happiness-trap-how-to-stop-struggling-and-start-living-second-edition",
+          title: 'The Happiness Trap: How to Stop Struggling and Start Living (Second Edition)',
+          description: "",
+          section: "Library",handler: () => {
+              window.location.href = "/bookshelf/The_Happiness_Trap/";
+            },},{id: "library-the-wind-up-bird-chronicle",
+          title: 'The Wind-Up Bird Chronicle',
+          description: "",
+          section: "Library",handler: () => {
+              window.location.href = "/bookshelf/The_Wind-Up_Bird_Chronicle/";
             },},{id: "news-i-ranked-1st-among-1-4-million-participants-in-the-national-high-school-entrance-examination-teog",
           title: 'I ranked 1st among 1.4 million participants in the National High School Entrance...',
           description: "",
