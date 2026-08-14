@@ -23,21 +23,28 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "nav-bookshelf",
-          title: "bookshelf",
-          description: "A personal archive of my reading journey on Kobo since last year, featuring unedited highlights, raw notes, and book reviews.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/bookshelf/";
-          },
-        },{id: "nav-brewshelf",
-          title: "brewshelf",
-          description: "My journal of specialty coffee explorations, detailing brew recipes and flavor profiles.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/brewshelf/";
-          },
-        },{id: "post-düşünsel-üretimde-formun-önemi-üzerine",
+        },{id: "dropdown-bookshelf",
+              title: "bookshelf",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/bookshelf/";
+              },
+            },{id: "dropdown-brewshelf",
+              title: "brewshelf",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/brewshelf/";
+              },
+            },{id: "dropdown-blog",
+              title: "blog",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/blog/";
+              },
+            },{id: "post-düşünsel-üretimde-formun-önemi-üzerine",
         
           title: "Düşünsel Üretimde Formun Önemi Üzerine",
         
@@ -59,28 +66,6 @@ ninja.data = [{
             window.location.href = "/blog/2026/coffee-setup/";
           
         },
-      },{id: "post-revisiting-an-old-paper",
-        
-          title: "Revisiting an old paper",
-        
-        description: "Can we reformulate an old universal randomized switching paper with respect to Bayesian terminology?",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2026/randomized-switching-paper-revisited/";
-          
-        },
-      },{id: "post-ai-agent-for-automated-research-paper-drafting",
-        
-          title: "AI Agent for Automated Research Paper Drafting",
-        
-        description: "Can we greatly automate our research paper writing process with flexible ai agents?",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2026/research-paper-ai-agent/";
-          
-        },
       },{id: "post-i̇letişim-gerçeklik-ve-anlaşılmak-üzerine",
         
           title: "İletişim, Gerçeklik ve Anlaşılmak Üzerine",
@@ -90,17 +75,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2025/third-blog-post/";
-          
-        },
-      },{id: "post-phd-applications-as-a-joint-optimization-problem",
-        
-          title: "PhD applications (as a joint optimization problem)",
-        
-        description: "let&#39;s continue",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/second_blog_post/";
           
         },
       },{id: "post-the-manifesto-of-the-blog",
