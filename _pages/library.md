@@ -2,7 +2,7 @@
 layout: page
 title: bookshelf
 permalink: /bookshelf/
-nav: true
+nav: false
 nav_order: 5
 description: A personal archive of my reading journey on Kobo since last year, featuring unedited highlights, raw notes, and book reviews.
 ---

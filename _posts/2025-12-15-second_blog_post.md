@@ -7,6 +7,7 @@ tags: ideas
 categories: 
 giscus_comments: false
 related_posts: false
+published: false
 ---
 
 I was planning to apply to PhD programs this year. Like all transition periods, this one brought lots of questioning. I remember the last year of high school and bachelor's, all the same. We have to think and plan: what is going to happen to us? The problem is, there is no clear answer to that. Such an ill situation! 

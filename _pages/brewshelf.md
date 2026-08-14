@@ -2,7 +2,7 @@
 layout: page
 title: brewshelf
 permalink: /brewshelf/
-nav: true
+nav: false
 nav_order: 6
 description: My journal of specialty coffee explorations, detailing brew recipes and flavor profiles.
 ---
@@ -24,3 +24,5 @@ description: My journal of specialty coffee explorations, detailing brew recipes
     </a>
   {% endfor %}
 </div>
+
+df

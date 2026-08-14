@@ -1,12 +1,14 @@
 ---
 layout: page
-title: submenus
-nav: false
+title: misc
+nav: true
 nav_order: 8
 dropdown: true
 children:
   - title: bookshelf
-    permalink: /books/
+    permalink: /bookshelf/
+  - title: brewshelf
+    permalink: /brewshelf/
   - title: divider
   - title: blog
     permalink: /blog/

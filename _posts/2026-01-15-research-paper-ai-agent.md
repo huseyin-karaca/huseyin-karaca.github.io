@@ -7,6 +7,7 @@ tags: ideas
 categories: 
 giscus_comments: false
 related_posts: false
+published: false
 ---
 
 Bunu buraya unutulmaması için koymak istedim bir an önce. 
