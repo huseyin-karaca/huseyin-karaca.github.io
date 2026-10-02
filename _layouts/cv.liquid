@@ -48,7 +48,7 @@ layout: default
                   {%- include cv/skills.liquid content=section_content -%}
                 {%- when 'achievements_and_honors' -%}
                   {%- include cv/achievements.liquid content=section_content -%}
-                {%- when 'extracurricular_activities' -%}
+                {%- when 'extracurricular_activities' or 'activities_and_interests' -%}
                   {%- include cv/experience.liquid content=section_content -%}
               {%- endcase -%}
             </div>

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: misc
-nav: true
+nav: false # misc (bookshelf, brewshelf, blog) is disabled; see exclude: in _config.yml
 nav_order: 8
 dropdown: true
 children:
